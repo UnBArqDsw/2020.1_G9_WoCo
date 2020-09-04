@@ -23,7 +23,7 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 |RF10| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entevista|
 |RF11| O aplicativo deve possuir animações para induzir o usuário em como proceder com suas atividades físicas|Must|Questionário|
 |RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entevista|
-|RF13| Que o app mostre a quantidade total de calorias gastas na realização das atividades/treino|Could|Brainstorming|
+|RF13| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
 
 ### Requisitos Não Funcionais
 |Índice|Descrição|Rastreabilidade|
