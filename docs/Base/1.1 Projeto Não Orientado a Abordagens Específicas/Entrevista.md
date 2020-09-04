@@ -11,7 +11,7 @@
 A entrevista é uma técnica de elicitação de requisitos que se baseia em questionar os stakeholders
 sobre processos e sistemas atuais e sobre o que é desejado para o que vai ser desenvolvido.
 Entrevistas podem ser fechadas ou abertas, enquanto as fechadas são baseadas em um
-conjunto pré-existente de perguntas as abertas são sem script pré-definido, se adaptando
+conjunto pré-existente de perguntas as abertas são sem script predefinido, se adaptando
 de acordo com o conhecimento do stakeholder.
 
 Foram realizadas duas entrevistas majoritariamente abertas, mas com algumas perguntas predefinidas para acelerar o processo da entrevista. Essas entrevistas ocorreram nos dias 25/08/2020 e 29/08/2020.
