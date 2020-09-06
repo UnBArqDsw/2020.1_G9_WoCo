@@ -15,7 +15,6 @@ Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e mode
 | Planos de risco | Ernando | Docs | 2 |
 | Custo e tempo | Bruno e Ernando | Docs | 3 |
 | Prototipo de baixa fidelidade | Bruno | UI/UX | 2 |
-| Planos de risco | Eugênio | Docs | 2 |
 | Backlog do produto | Bruno | Design Sprint | 3 |
 | Roadmap do Produto | Ernando | Design Sprint | 3 |
 | Levantamento de requisitos | Todos | Elicitação | 3 |
@@ -39,7 +38,7 @@ Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e mode
 ## Pontos
 | Planejados | Débito | Total | 
 |:----------:|:------:|:-----:|
-| 37 | 0 | 37 |
+| 35 | 0 | 36 |
 
 
 ## Presença na sprint planning 1 (04/04/2020)
