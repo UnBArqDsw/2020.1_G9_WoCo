@@ -48,6 +48,6 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 ### Histórico de revisões
 |Data|Versão|Alteração|Autor|
 |----|------|---------|-----|
-| 03/07/2020 | 0.1 | Adição dos requisitos RF03 à RF10 e RNF03 à RNF04 | Eugênio Sales |
-|03/07/2020|0.2|Adicionando Requisitos [RF08,RF13]|Bruno Durte|
+| 03/09/2020 | 0.1 | Adição dos requisitos RF03 à RF10 e RNF03 à RNF04 | Eugênio Sales |
+|03/09/2020|0.2|Adicionando Requisitos [RF08,RF13]|Bruno Durte|
 |06/09/2020|0.3|Adição dos requisitos RF14 à RF16 e RNF08 | Weiller Fernandes |
