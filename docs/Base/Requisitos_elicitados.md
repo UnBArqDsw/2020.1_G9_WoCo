@@ -20,10 +20,13 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 | RF07 | O usuário pode agendar os treinos  | Would | Entrevista |
 | RF08| O usuário pode cronometrar o tempo das atividade em execução|Could|Questionário|
 |RF09|O usuário pode criar seus treinos em uma lista personalizada de exercícios|Could|Entrevista|
-|RF10| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entevista|
+|RF10| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entrevista|
 |RF11| O aplicativo deve possuir animações para induzir o usuário em como proceder com suas atividades físicas|Must|Questionário|
-|RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entevista|
+|RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entrevista|
 |RF13| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
+|RF14| O usuário deve poder realizar check-in dos dias que cumpriu com seus treinos através de um calendário.|Should|Entrevista|
+|RF15| O usuário deve poder adicionar e editar suas informações pessoais, como altura, peso e medidas corporais.|Should|Entrevista|
+|RF16| O aplicativo deve mostrar a evolução do usuário em relação ao seu histórico de peso corporal, medidas e demais dados informados pelo usuário.|Would|Entrevista|
 
 ### Requisitos Não Funcionais
 |Índice|Descrição|Rastreabilidade|
@@ -35,6 +38,7 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 | RNF05 | O aplicativo deve ter uma boa responsividade em todas as plataformas igualmente | Brainstorming |
 | RNF06 | Confidencialidade e privacidade dos dados | Brainstorming |
 | RNF07 | O aplicativo deve manter um backup dos meus dados | Brainstorming |
+| RNF08 | O aplicativo deve possibilitar o uso offline. |Entrevista|
 
 ### Referências
 >  SERRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
@@ -46,3 +50,4 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 |----|------|---------|-----|
 | 03/07/2020 | 0.1 | Adição dos requisitos RF03 à RF10 e RNF03 à RNF04 | Eugênio Sales |
 |03/07/2020|0.2|Adicionando Requisitos [RF08,RF13]|Bruno Durte|
+|06/09/2020|0.3|Adição dos requisitos RF14 à RF16 e RNF08 | Weiller Fernandes |
