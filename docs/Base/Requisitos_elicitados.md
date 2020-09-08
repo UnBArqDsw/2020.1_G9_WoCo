@@ -19,11 +19,11 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 | RF06 | O usuário pode adicionar quantidade de repetições e carga para cada exercício na montagem do treino  | Would | Entrevista |
 | RF07 | O usuário pode agendar os treinos  | Would | Entrevista |
 | RF08| O usuário pode cronometrar o tempo das atividade em execução|Could|Questionário|
-|RF09|O usuário pode criar seus treinos em uma lista personalizada de exercícios|Could|Entrevista|
-|RF10| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entevista|
-|RF11| O aplicativo deve possuir animações para induzir o usuário em como proceder com suas atividades físicas|Must|Questionário|
-|RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entevista|
-|RF13| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
+| RF09|O usuário pode criar seus treinos em uma lista personalizada de exercícios|Could|Entrevista|
+| RF10| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entevista|
+| RF11| O aplicativo deve possuir animações para induzir o usuário em como proceder com suas atividades físicas|Must|Questionário|
+| RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entevista|
+| RF13| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
 
 ### Requisitos Não Funcionais
 |Índice|Descrição|Rastreabilidade|
