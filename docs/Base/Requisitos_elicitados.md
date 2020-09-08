@@ -14,8 +14,8 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 | RF01 | O usuário deve poder criar sua conta no aplicativo. | Must | Análise do discurso - Introspecção |
 | RF02 | O usuário deverá ter acesso aos Termos e Política de Privacidade. | Should | Brainstorming |
 | RF03 | O aplicativo deverá listar exercícios categorizados por grupamento muscular. | Must | Brainstorming |
-| RF04 | O usuário pode adicionar e remover treinos | Must | Rich Picture |
-| RF05 | O usuário pode adicionar exercícios por grupamento musucular para determinado treino | Must | Entrevista |
+| RF04 | O usuário pode adicionar e remover treinos | Must | Rich Picture - Introspecção|
+| RF05 | O usuário pode adicionar exercícios por grupamento muscular para determinado treino | Must | Entrevista - Introspecção|
 | RF06 | O usuário pode adicionar quantidade de repetições e carga para cada exercício na montagem do treino  | Would | Entrevista |
 | RF07 | O usuário pode agendar os treinos  | Would | Entrevista |
 | RF08| O usuário pode cronometrar o tempo das atividade em execução|Could|Questionário|
@@ -25,8 +25,8 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 |RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entrevista|
 |RF13| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
 |RF14| O usuário deve poder realizar check-in dos dias que cumpriu com seus treinos através de um calendário.|Should|Entrevista|
-|RF15| O usuário deve poder adicionar e editar suas informações pessoais, como altura, peso e medidas corporais.|Should|Entrevista|
-|RF16| O aplicativo deve mostrar a evolução do usuário em relação ao seu histórico de peso corporal, medidas e demais dados informados pelo usuário.|Would|Entrevista|
+|RF15| O usuário deve poder adicionar e editar suas informações pessoais, como altura, peso e medidas corporais.|Should|Entrevista - Introspecção|
+|RF16| O aplicativo deve mostrar a evolução do usuário em relação ao seu histórico de peso corporal, medidas e demais dados informados pelo usuário.|Would|Entrevista - Introspecção|
 
 ### Requisitos Não Funcionais
 |Índice|Descrição|Rastreabilidade|
