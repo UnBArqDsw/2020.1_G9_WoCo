@@ -26,3 +26,8 @@ E para o desenvolvimento do Front-end da aplicação tivemos as seguintes respos
 Também foi levantado um questionamento de ideias para o projeto, e obtivemos as seguintes sugestões:
 
 ![Tema](http://imgur.com/4LPf2Rjl.png)
+
+## Versionamento do documento
+| Autor | Data | Versão | Modificação |
+|---|---|---|---|
+| Ernando Braga | 04/09 | 1.0 | Criação do documento |
