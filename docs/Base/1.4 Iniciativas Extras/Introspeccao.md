@@ -18,7 +18,7 @@ A utilização dessa técnica visa elicitar as funcionalidades que o WoCo - Work
 
 ## 3. Introspecção 01
 
-![INT1](./introspeccao-v1.jpg)
+![INT1](img/introspeccao-v1.jpg)
 
 ## 4. Ferramenta utilizada
 
