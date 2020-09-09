@@ -6,3 +6,8 @@ EAR é uma alternativa de apresentar os riscos de um projeto de forma estruturad
 Usaremos a abordagem voltada para os objetivos do projeto por categoria, e suas hierarquias.
 
 ![ear](../images/gerenciamento-de-riscos.png)
+
+## Versionamento do documento
+| Autor | Data | Versão | Modificação |
+|---|---|---|---|
+| Ernando Braga | 08/09 | 1.0 | Criação do documento |
