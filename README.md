@@ -13,7 +13,9 @@
 | 13/0137995  |  Weiller Fernandes Pereira |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+Tendo em vista a dificuldade de gestão de treino por parte de praticamentes, principalmente, de musculação quanto a gestão da ficha de treinos, periodização e controla da evolução de cargas e métricas do corpo. O WoKo propõe-se a centralizar essas informações e disponibilizar um controle pleno e integral do treino dos usuários de musculação. A oportunidade de negócio encontra-se em tornar a percepção subjetica de esforço em um processo controlado e centralizado. 
+
+A aplicação permite a adição de treinos categorizados por grupamentos muscular de acordo a necessidade/prescrição de um profisional. Também é possível realizar agendamentos para delinear períodos de determinadas variações de treino, bem como, registrar medidas para acompanhamento de evolução.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
