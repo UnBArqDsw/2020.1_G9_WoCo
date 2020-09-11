@@ -3,10 +3,10 @@
 ## **1. Introdução**
 
 ### 1.1 Finalidade
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento tem por finalidade contextualizar o aplicativo Woko e os problemas que a aplicação se propõe a resolver, bem como apresentar os stakeholders e a visão de produto.
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento tem por finalidade contextualizar o aplicativo WoCo e os problemas que a aplicação se propõe a resolver, bem como apresentar os stakeholders e a visão de produto.
 
 ### 1.2 Escopo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O Woco é um aplicativo para gerenciar os treinos de musculação, com o intuito de deixar o treino mais organizado.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O WoCo é um aplicativo para gerenciar os treinos de musculação, com o intuito de deixar o treino mais organizado.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A aplicação tem como propósito auxiliar as pessoas com a gestão dos treinos e controle sobre a evolução com métricas relacionadas ao corpo e evolução de cargas.
 
@@ -21,12 +21,12 @@
 
 
 ### 1.5 Visão Geral
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento visa detalhar os processos de desenvolvimento, planejamento e a construção do WoKo, a gestão em um todo. Assim como sua visão de negócio, as partes a que se destina o uso do software, contendo as limitações, funcionalidades, interfaces e requisitos.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este documento visa detalhar os processos de desenvolvimento, planejamento e a construção do WoCo, a gestão em um todo. Assim como sua visão de negócio, as partes a que se destina o uso do software, contendo as limitações, funcionalidades, interfaces e requisitos.
 
 ## **2. Posição**
 
 ### 2.1 Oportunidade de Negócio
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista a dificuldade de gestão de treino por parte de praticamentes, principalmente, de musculação quanto a gestão da ficha de treinos, periodização e controla da evolução de cargas e métricas do corpo. O Woko propõe-se a centralizar essas informações e disponibilizar um controle pleno e integral do treino dos usuários de musculação. A oportunidade de negócio encontra-se em tornar a percepção subjetica de esforço em um processo controlado e centralizado.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tendo em vista a dificuldade de gestão de treino por parte de praticamentes, principalmente, de musculação quanto a gestão da ficha de treinos, periodização e controla da evolução de cargas e métricas do corpo. O WoCo propõe-se a centralizar essas informações e disponibilizar um controle pleno e integral do treino dos usuários de musculação. A oportunidade de negócio encontra-se em tornar a percepção subjetica de esforço em um processo controlado e centralizado.
 
 ### 2.2 Descrição do Problema
 
@@ -43,7 +43,7 @@
 | :---: | :---: |
 | **Para** | Pessoas praticantes de musculação |
 | **Que** | uerem ter um controle fino da gestão de treinos e controle da evolução |
-| **O WoKo** | é um aplicativo|
+| **O WoCo** | é um aplicativo|
 | **Que** | auxilia com o controle de treinos e medidas |
 | **Diferente de** | não ter um controle claro dessas variáveis |
 | **Nosso produto** | auxilia o usuário a ter resultados mais claros de forma organizada |
@@ -58,7 +58,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Os usuários chave desta aplicação seriam pessoas que questionam seus resultados e também não conseguem realizar periodizações no treino, ou não tem um plano claro de treino. 
 
 ### 3.3 Ambiente do Usuário 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A amplitute do projeto situa-se em um aplicativo denominado WoKo que pode ser acessado através de dispositivos móveis em plataformas híbridas, como Play Store e Apple Store.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A amplitute do projeto situa-se em um aplicativo denominado WoCo que pode ser acessado através de dispositivos móveis em plataformas híbridas, como Play Store e Apple Store.
 
 ## 4. Visão Geral do Produto
 
@@ -85,7 +85,7 @@
 
 
 ## 6. Restrições
-- O WoKo tem intuito de auxiliar e aumentar a qualidade do treino de musculação, mas não exime a necessidade de um profissional da área para prescrição e acompanhamento dos exercícios.
+- O WoCo tem intuito de auxiliar e aumentar a qualidade do treino de musculação, mas não exime a necessidade de um profissional da área para prescrição e acompanhamento dos exercícios.
 - Compatível com dispositivos Android e iOS.
 
 ***

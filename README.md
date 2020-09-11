@@ -1,4 +1,12 @@
-# WoCo - Workout Controller
+<p align="center">
+    <img src="./docs/images/logo_woco_1.png" alt="Logo" height=300 width=400>
+</p>
+
+<h1 align="center">
+  <a href="">
+    WoCo - Workout Controller
+  </a>
+</h1>
 
 **Número do Grupo**: 09<br>
 **Código da Disciplina**: FGA0208-T01<br>
