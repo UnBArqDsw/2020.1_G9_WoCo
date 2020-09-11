@@ -1,22 +1,22 @@
 ## Design Sprint
 
-É um processo de cinco etapas para responder a questões críticas de negócios por meio de design, prototipagem e ideias e testes.<br>
-O objetivo é poder reduzir o ciclo de debates intermináveis ​​e compactar meses de tempo em uma única semana. Em vez de esperar para lançar um produto mínimo para entender se uma ideia é boa, você obterá dados claros de um protótipo realista. O sprint dá a você um superpoder: você pode avançar no futuro para ver seu produto acabado e as reações do cliente, antes de fazer qualquer compromisso caro.
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É um processo de cinco etapas para responder a questões críticas de negócios por meio de design, prototipagem e ideias e testes.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo é poder reduzir o ciclo de debates intermináveis ​​e compactar meses de tempo em uma única semana. Em vez de esperar para lançar um produto mínimo para entender se uma ideia é boa, você obterá dados claros de um protótipo realista. O sprint dá a você um superpoder: você pode avançar no futuro para ver seu produto acabado e as reações do cliente, antes de fazer qualquer compromisso caro.
+<br/><br/><br/>
 ## Etapa I - Descompactação
-As discussões realizadas nesta etapa criam uma estruturação do projeto e compartilhamento do que se tem em mente. Os artefatos que corroboram para esta etapa são:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As discussões realizadas nesta etapa criam uma estruturação do projeto e compartilhamento do que se tem em mente. Os artefatos que corroboram para esta etapa são:
 
-* [Introspecção](../1.4\ Iniciativas\ Extras/Introspeccao.md)
+* [Introspecção](../1.4%20Iniciativas%20Extras/Introspeccao.md)
 
-* [Levantamento de Tecnologias](../1.4\ Iniciativas\ Extras/levantamento-de-tecnologias.md)
+* [Levantamento de Tecnologias](../1.4%20Iniciativas%20Extras/levantamento-de-tecnologias.md)
 
 * [Mapa Mental](./mapa_mental/mapa-mental.md)
 
 ![Mapa Mental](./mapa_mental/mapa-mental-v01.png)
 
-
+<br/><br/><br/>
 ## Etapa II - Esboço
-As ideias e reuniões da etapa anterior são representadas como desenhos e a visão de cada integrante está contida neles. Nessa etapa temos dois **Rich Pictures** que foram elaborados para abordar o projeto
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As ideias e reuniões da etapa anterior são representadas como desenhos e a visão de cada integrante está contida neles. Nessa etapa temos dois **Rich Pictures** que foram elaborados para abordar o projeto
 
 > Versão Inicial
 
@@ -25,8 +25,9 @@ As ideias e reuniões da etapa anterior são representadas como desenhos e a vis
 > Nova Versão
 ![Rich Picture](./rich-picture/images/rich_picture-v2.png)
 
+<br/><br/><br/>
 ## Etapa III - Aperfeiçoamento
-Após as etapas anteriores os artefatos que foram gerados, os rich pictures e documentos foram analisados e chegamos a uma versão mais sólida do projeto. Os artefatos que nos ajudaram a criar um protótipo foram uma nova versão do rich picture e para suprir o storyboard foram realizadas as entrevistas. Segue abaixo estes artefatos:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Após as etapas anteriores os artefatos que foram gerados, os rich pictures e documentos foram analisados e chegamos a uma versão mais sólida do projeto. Os artefatos que nos ajudaram a criar um protótipo foram uma nova versão do rich picture e para suprir o storyboard foram realizadas as entrevistas. Segue abaixo estes artefatos:
 
 
 
@@ -40,9 +41,9 @@ Após as etapas anteriores os artefatos que foram gerados, os rich pictures e do
 
 * [Entrevistas](./Entrevista.md)
 
-
+<br/><br/><br/>
 ## Etapa IV - Protótipo
-Temos a elaboração de um protótipo que visa ser uma visão bem próxima do projeto. Segue algumas imagens do protótipo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Temos a elaboração de um protótipo que visa ser uma visão bem próxima do projeto. Segue algumas imagens do protótipo
 
 ### Home
 ![Home](./prototipo/images/home.jpg)
@@ -53,9 +54,9 @@ Ressalvo que o Protótipo completo possui um documento específico que relata to
 
 
 
-
+<br/><br/><br/>
 ## Observações
-Todos os artefatos aqui citados possuem um documento específico relatando o versionamento e as particularidade de cada artefato e/ou versão.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todos os artefatos aqui citados possuem um documento específico relatando o versionamento e as particularidade de cada artefato e/ou versão.
 
 * [Rich Picture](./rich-picture/richpicture.md)
 
@@ -66,12 +67,18 @@ Todos os artefatos aqui citados possuem um documento específico relatando o ver
 * [Entrevistas](./Entrevista.md)
 
 
+* [Introspecção](../1.4%20Iniciativas%20Extras/Introspeccao.md)
+
+* [Levantamento de Tecnologias](../1.4%20Iniciativas%20Extras/levantamento-de-tecnologias.md)
+
+<br/><br/><br/>
 ## Referências
 
 > THE DESIGN Sprint. [S. l.], 2019. Disponível em: https://www.gv.com/sprint/. Acesso em: 9 set. 2020.
 
 > DESIGN sprints: what they are and how to successfully run one. [S. l.], 2020. Disponível em: https://miro.com/blog/design-sprint-guide/. Acesso em: 11 set. 2020.
 
+<br/><br/><br/>
 
 ### Versionamento
 |Data|Versão|Alteração|Autor|
