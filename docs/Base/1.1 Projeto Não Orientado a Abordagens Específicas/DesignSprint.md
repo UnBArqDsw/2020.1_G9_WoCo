@@ -1,7 +1,6 @@
 ## Design Sprint
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É um processo de cinco etapas para responder a questões críticas de negócios por meio de design, prototipagem e ideias e testes.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;O objetivo é poder reduzir o ciclo de debates intermináveis ​​e compactar meses de tempo em uma única semana. Em vez de esperar para lançar um produto mínimo para entender se uma ideia é boa, você obterá dados claros de um protótipo realista. O sprint dá a você um superpoder: você pode avançar no futuro para ver seu produto acabado e as reações do cliente, antes de fazer qualquer compromisso caro.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;É um processo de cinco etapas para responder a questões críticas de negócios por meio de design, prototipagem e ideias e testes. O objetivo é poder reduzir o ciclo de debates intermináveis ​​e compactar meses de tempo em uma única semana. Em vez de esperar para lançar um produto mínimo para entender se uma ideia é boa, você obterá dados claros de um protótipo realista. O sprint dá a você um superpoder: você pode avançar no futuro para ver seu produto acabado e as reações do cliente, antes de fazer qualquer compromisso caro.
 <br/><br/><br/>
 ## Etapa I - Descompactação
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As discussões realizadas nesta etapa criam uma estruturação do projeto e compartilhamento do que se tem em mente. Os artefatos que corroboram para esta etapa são:
@@ -18,11 +17,12 @@
 ## Etapa II - Esboço
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As ideias e reuniões da etapa anterior são representadas como desenhos e a visão de cada integrante está contida neles. Nessa etapa temos dois **Rich Pictures** que foram elaborados para abordar o projeto
 
-> Versão Inicial
+### Versão Inicial do Rich Picture
 
 ![Rich Picture v1](./rich-picture/images/rich_picture-v1-1.png)
 
-> Nova Versão
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outra versão foi confeccionada procurando atender mais a proposta do app tentando diminuir o nível de abstração da versão precedente.
+### Rich Picture Versão 0.2 
 ![Rich Picture](./rich-picture/images/rich_picture-v2.png)
 
 <br/><br/><br/>
@@ -43,14 +43,15 @@
 
 <br/><br/><br/>
 ## Etapa IV - Protótipo
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Temos a elaboração de um protótipo que visa ser uma visão bem próxima do projeto. Segue algumas imagens do protótipo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Temos a elaboração de um protótipo cujo objetivo é ser uma versão/visualização bem próxima do projeto. Segue algumas imagens do protótipo
 
 ### Home
-![Home](./prototipo/images/home.jpg)
-![Lista](./prototipo/images/lista_treinos.jpg)
-![Report](./prototipo/images/lista_treinos.jpg)
+![Home](./prototipo/images/home.jpg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Lista](./prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Report](./prototipo/images/report.jpg)
 
-Ressalvo que o Protótipo completo possui um documento específico que relata todas as telas e o conteúdo ali presente bem [aqui](./prototipo/prototipo_baixafidelidade.md).
+
+> Ressalvo que o [Protótipo](./prototipo/prototipo_baixafidelidade.md) completo possui um documento específico que relata todas as telas e o conteúdo ali presente, bem [aqui](./prototipo/prototipo_baixafidelidade.md).
 
 
 
@@ -84,3 +85,4 @@ Ressalvo que o Protótipo completo possui um documento específico que relata to
 |Data|Versão|Alteração|Autor|
 |----|------|---------|-----|
 |11/09/2020|0.1|Adicionando Design Sprint|Bruno Duarte|
+|11/09/2020|0.2|Refatorações|Bruno Duarte|
