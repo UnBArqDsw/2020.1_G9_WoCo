@@ -1,5 +1,5 @@
-# RichPicture
-O RichPicture é uma técnica que serve para a obtenção do entendimento e idealização de determinado sistema. Ele é desenvolvido, inicialmente, à mão-livre, ou utilizando esboços.
+# Rich Picture
+O Rich Picture é uma técnica que serve para a obtenção do entendimento e idealização de determinado sistema. Ele é desenvolvido, inicialmente, à mão-livre, ou utilizando esboços.
 
 ***
 ## Versões Desenvolvidas
@@ -15,7 +15,7 @@ O RichPicture é uma técnica que serve para a obtenção do entendimento e idea
 
 > Versão Inicial do Rich Picture feita a mão a partir do que foi discutido inicialmente pelo grupo.
 
-![WOCO RichPicture](./rich_picture-v1-1.png)
+![WOCO RichPicture](./images/rich_picture-v1-1.png)
 </br>
 
 **Versão: 0.2** </br>
@@ -23,7 +23,15 @@ O RichPicture é uma técnica que serve para a obtenção do entendimento e idea
 
 >Versão feita com base em sketcher visando aprimorar o que foi proposto na versão anterior
 
-![WOCO RichPicture](./rich_picture-v2.png)
+![WOCO RichPicture](./images/rich_picture-v2.png)
+
+
+**Versão: 0.3** </br>
+*Autor: Bruno Duarte.*
+
+>Versão realizada com base na versão anterior porém personalizada com icons e cores
+
+![WOCO RichPicture](./images/rich_picturev3.jpg)
 
 ***
 ## Referências
@@ -41,3 +49,4 @@ O RichPicture é uma técnica que serve para a obtenção do entendimento e idea
 |------|-------|-----------|--------|
 | 03/09/2020 | Davi Alves | Adicionando primeira versão | 0.1 |
 | 06/09/2020 | Bruno Duarte | Adicionando v2 Rich Picture | 0.2|
+|10/09/2020|Bruno Duarte|Adicionando v3 do Rich Picture|0.3|
