@@ -22,9 +22,8 @@ Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e mode
 | Entrevista | Weiller | Elicitação | 1 |
 | Github pages | Davi | Docs | 1 |
 | Estimativa - Custo e tempo | Bruno e Ernando | Docs | 1 |
-| Wiki | Eugênio | Docs | 1 | 
-| Desenho detalhado da metodologia do projeto, utilizando a notação BMPN | Davi | Docs | 1 |
-| Pequeno áudio procurando explicar em linhas gerais a metodologia utilizada. | Davi | Docs | 1 |
+| Desenho detalhado da metodologia do projeto, utilizando a notação BMPN | Eugênio | Docs | 1 |
+| Pequeno áudio procurando explicar em linhas gerais a metodologia utilizada. | Eugênio | Docs | 1 |
 | Definição de tema | todos | - | 1 |
 | Rich Picture | Davi e Bruno | Pré-rastreabilidade | 1 |
 | 5w2h | Weiller | Pré-rastreabilidade | 1 |
@@ -38,7 +37,7 @@ Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e mode
 ## Pontos
 | Planejados | Débito | Total | 
 |:----------:|:------:|:-----:|
-| 35 | 0 | 36 |
+| 35 | 0 | 35 |
 
 
 ## Presença na sprint planning 1 (04/04/2020)
