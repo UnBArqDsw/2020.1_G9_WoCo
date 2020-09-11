@@ -1,13 +1,10 @@
 # main links
-docs:
+main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Sprints"
     url: /sprints
-  - title: "Projeto"
+  - title: "Políticas"
     url: /policies
-# - [Projeto](Index/projectIndex.md)
-# - [Base](Index/baseIndex.md)
-# - [Modelagem](Index/modelingIndex.md)
-# - [Padrões de projeto](Index/projectPatternsIndex.md)
-# - [Arquitetura e reutilização](Index/architectureIndex.md)
+  - title: "Base"
+    url: /Base
