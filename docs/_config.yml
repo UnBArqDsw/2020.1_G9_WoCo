@@ -273,12 +273,11 @@ titles_from_heading:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      strip_titles: true
       sidebar: 
         nav: "main"
