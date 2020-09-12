@@ -1,0 +1,10 @@
+site_name:  Workout Controler - Woco
+repo_name: 'Woco'
+repo_url: 'https://github.com/UnBArqDsw/2020.1_G9_WoCo'
+theme:
+    name: 'material'
+    palette:
+      primary: black
+
+
+docs_dir: ../docs/
