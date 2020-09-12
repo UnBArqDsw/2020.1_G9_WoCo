@@ -1,0 +1,1234 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Sprint 0: Planning - Workout Controler - Woco</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.6a5ad368.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#000000">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sprint-0-planning" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Workout Controler - Woco" class="md-header-nav__button md-logo" aria-label="Workout Controler - Woco">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Workout Controler - Woco
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Sprint 0: Planning
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Woco
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Workout Controler - Woco" class="md-nav__button md-logo" aria-label="Workout Controler - Woco">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Workout Controler - Woco
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Woco
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Base
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Base" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Base
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/Requisitos_elicitados/" title="Requisitos Elicitados" class="md-nav__link">
+      Requisitos Elicitados
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/backlog/" title="Backlog do Produto" class="md-nav__link">
+      Backlog do Produto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3" type="checkbox" id="nav-2-3">
+    
+    <label class="md-nav__link" for="nav-2-3">
+      1.1 Projeto Não Orientado a Abordagens Específicas
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.1 Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-3">
+        <span class="md-nav__icon md-icon"></span>
+        1.1 Projeto Não Orientado a Abordagens Específicas
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/5W2H/" title="5W2H" class="md-nav__link">
+      5W2H
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/DesignSprint/" title="DesignSprint" class="md-nav__link">
+      DesignSprint
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/EAR/" title="Gerenciamento de Riscos do Projeto" class="md-nav__link">
+      Gerenciamento de Riscos do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/custo_tempo/" title="Custo tempo" class="md-nav__link">
+      Custo tempo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/diagrama-de-causa-e-efeito/" title="Diagrama de causa e efeito" class="md-nav__link">
+      Diagrama de causa e efeito
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-8" type="checkbox" id="nav-2-3-8">
+    
+    <label class="md-nav__link" for="nav-2-3-8">
+      Mapa mental
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Mapa mental" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-3-8">
+        <span class="md-nav__icon md-icon"></span>
+        Mapa mental
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/mapa_mental/mapa-mental/" title="Mapa Mental" class="md-nav__link">
+      Mapa Mental
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-9" type="checkbox" id="nav-2-3-9">
+    
+    <label class="md-nav__link" for="nav-2-3-9">
+      Prototipo
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Prototipo" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-3-9">
+        <span class="md-nav__icon md-icon"></span>
+        Prototipo
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/prototipo/prototipo_baixafidelidade/" title="Prototipo baixafidelidade" class="md-nav__link">
+      Prototipo baixafidelidade
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-3-10" type="checkbox" id="nav-2-3-10">
+    
+    <label class="md-nav__link" for="nav-2-3-10">
+      Rich picture
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Rich picture" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-3-10">
+        <span class="md-nav__icon md-icon"></span>
+        Rich picture
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.1%20Projeto%20N%C3%A3o%20Orientado%20a%20Abordagens%20Espec%C3%ADficas/rich-picture/richpicture/" title="Rich Picture" class="md-nav__link">
+      Rich Picture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-4" type="checkbox" id="nav-2-4">
+    
+    <label class="md-nav__link" for="nav-2-4">
+      1.2 Módulo Processos Metodologias Abordagens (Apresentação)
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.2 Módulo Processos Metodologias Abordagens (Apresentação)" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-4">
+        <span class="md-nav__icon md-icon"></span>
+        1.2 Módulo Processos Metodologias Abordagens (Apresentação)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.2%20M%C3%B3dulo%20Processos-Metodologias-Abordagens%20%28Apresenta%C3%A7%C3%A3o%29/detalhamento-metodologia/" title="Detalhamento de metodologia" class="md-nav__link">
+      Detalhamento de metodologia
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
+    
+    <label class="md-nav__link" for="nav-2-5">
+      1.3 Módulo Processos Metodologias Abordagens (Modelagem BPMN)
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.3 Módulo Processos Metodologias Abordagens (Modelagem BPMN)" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-5">
+        <span class="md-nav__icon md-icon"></span>
+        1.3 Módulo Processos Metodologias Abordagens (Modelagem BPMN)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.3%20M%C3%B3dulo%20Processos-Metodologias-Abordagens%20%28Modelagem%20BPMN%29/modelagem-bpmn-metodologia/" title="Modelagem BPMN das metodologias Scrum e XP" class="md-nav__link">
+      Modelagem BPMN das metodologias Scrum e XP
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6" type="checkbox" id="nav-2-6">
+    
+    <label class="md-nav__link" for="nav-2-6">
+      1.4 Iniciativas Extras
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="1.4 Iniciativas Extras" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-6">
+        <span class="md-nav__icon md-icon"></span>
+        1.4 Iniciativas Extras
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.4%20Iniciativas%20Extras/Identidadevisual/" title="Identidade Visual" class="md-nav__link">
+      Identidade Visual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.4%20Iniciativas%20Extras/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.4%20Iniciativas%20Extras/documento-visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.4%20Iniciativas%20Extras/levantamento-de-tecnologias/" title="Levantamento de Tecnologias e Ferramentas" class="md-nav__link">
+      Levantamento de Tecnologias e Ferramentas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2-6-5" type="checkbox" id="nav-2-6-5">
+    
+    <label class="md-nav__link" for="nav-2-6-5">
+      questionario WoCo
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="questionario WoCo" data-md-level="3">
+      <label class="md-nav__title" for="nav-2-6-5">
+        <span class="md-nav__icon md-icon"></span>
+        questionario WoCo
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Base/1.4%20Iniciativas%20Extras/questionario-WoCo/questionario-WoCo/" title="Questionario para levantamento de requisitos" class="md-nav__link">
+      Questionario para levantamento de requisitos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Policies
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Policies" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Policies
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../policies/branches/" title="Política de Branches" class="md-nav__link">
+      Política de Branches
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../policies/commits/" title="Política de Commits" class="md-nav__link">
+      Política de Commits
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../policies/pull-requests/" title="Políticas de Pull Request" class="md-nav__link">
+      Políticas de Pull Request
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Sprints
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Sprints" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Sprints
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Sprint 0: Planning
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="Sprint 0: Planning" class="md-nav__link md-nav__link--active">
+      Sprint 0: Planning
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#duracao-da-sprint" class="md-nav__link">
+    Duração da sprint
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-da-sprint" class="md-nav__link">
+    Objetivo da Sprint
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issues" class="md-nav__link">
+    Issues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pontos" class="md-nav__link">
+    Pontos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#presenca-na-sprint-planning-1-04042020" class="md-nav__link">
+    Presença na sprint planning 1 (04/04/2020)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-control" class="md-nav__link">
+    Version control
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Sprint-0-review/" title="Sprint 0: Review" class="md-nav__link">
+      Sprint 0: Review
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#duracao-da-sprint" class="md-nav__link">
+    Duração da sprint
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-da-sprint" class="md-nav__link">
+    Objetivo da Sprint
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#issues" class="md-nav__link">
+    Issues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pontos" class="md-nav__link">
+    Pontos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#presenca-na-sprint-planning-1-04042020" class="md-nav__link">
+    Presença na sprint planning 1 (04/04/2020)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-control" class="md-nav__link">
+    Version control
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/edit/master/docs/sprints/Sprint-0-planning.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="sprint-0-planning">Sprint 0: Planning</h1>
+<h2 id="duracao-da-sprint">Duração da sprint</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Início</th>
+<th align="center">Término</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">01/04/2020</td>
+<td align="center">11/04/2020</td>
+</tr>
+</tbody>
+</table>
+<h2 id="objetivo-da-sprint">Objetivo da Sprint</h2>
+<p>Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e modelagem. </p>
+<h2 id="issues">Issues</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Issue</th>
+<th align="center">Responsável</th>
+<th align="center">Épico</th>
+<th align="center">Pontos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Planos de risco</td>
+<td align="center">Ernando</td>
+<td align="center">Docs</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Custo e tempo</td>
+<td align="center">Bruno e Ernando</td>
+<td align="center">Docs</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Prototipo de baixa fidelidade</td>
+<td align="center">Bruno</td>
+<td align="center">UI/UX</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Backlog do produto</td>
+<td align="center">Bruno</td>
+<td align="center">Design Sprint</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Roadmap do Produto</td>
+<td align="center">Ernando</td>
+<td align="center">Design Sprint</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Levantamento de requisitos</td>
+<td align="center">Todos</td>
+<td align="center">Elicitação</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Levantamento de ferramentas e tecnologias</td>
+<td align="center">Ernando</td>
+<td align="center">Docs</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Entrevista</td>
+<td align="center">Weiller</td>
+<td align="center">Elicitação</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Github pages</td>
+<td align="center">Davi</td>
+<td align="center">Docs</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Estimativa - Custo e tempo</td>
+<td align="center">Bruno e Ernando</td>
+<td align="center">Docs</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Desenho detalhado da metodologia do projeto, utilizando a notação BMPN</td>
+<td align="center">Eugênio</td>
+<td align="center">Docs</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Pequeno áudio procurando explicar em linhas gerais a metodologia utilizada.</td>
+<td align="center">Eugênio</td>
+<td align="center">Docs</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Definição de tema</td>
+<td align="center">todos</td>
+<td align="center">-</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Rich Picture</td>
+<td align="center">Davi e Bruno</td>
+<td align="center">Pré-rastreabilidade</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">5w2h</td>
+<td align="center">Weiller</td>
+<td align="center">Pré-rastreabilidade</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Mapa mental</td>
+<td align="center">Davi</td>
+<td align="center">Pré-rastreabilidade</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center">Questionário</td>
+<td align="center">Davi</td>
+<td align="center">Elicitação</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Introspecção</td>
+<td align="center">Weiller</td>
+<td align="center">Elicitação</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Diagrame de causa e efeito</td>
+<td align="center">Ernando</td>
+<td align="center">Elicitação</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Documento de visão</td>
+<td align="center">Eugenio e Bruno</td>
+<td align="center">Docs</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Políticas de desenvolvimento</td>
+<td align="center">Ernando</td>
+<td align="center">Docs</td>
+<td align="center">1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="pontos">Pontos</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Planejados</th>
+<th align="center">Débito</th>
+<th align="center">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">35</td>
+<td align="center">0</td>
+<td align="center">35</td>
+</tr>
+</tbody>
+</table>
+<h2 id="presenca-na-sprint-planning-1-04042020">Presença na sprint planning 1 (04/04/2020)</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Nome</th>
+<th align="center">Presença</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Eugênio Sales</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">Bruno Henrique</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">Ernando Braga</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">Weiler</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">Davi Alves</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h2 id="version-control">Version control</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Date</th>
+<th align="center">Version</th>
+<th align="center">Update</th>
+<th align="center">Author</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">01/04/2020</td>
+<td align="center">0.1</td>
+<td align="center">Sprint Planning</td>
+<td align="center">Eugênio Sales</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../policies/pull-requests/" title="Políticas de Pull Request" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Políticas de Pull Request
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../Sprint-0-review/" title="Sprint 0: Review" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Sprint 0: Review
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
