@@ -1,4 +1,4 @@
-# Sprint 0
+# Sprint 0: Planning
 
 ## Duração da sprint
 | Início | Término |

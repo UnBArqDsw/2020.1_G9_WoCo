@@ -1,4 +1,4 @@
-# Sprint 0
+# Sprint 0: Review
 
 ## Duração da sprint
 | Início | Término |
