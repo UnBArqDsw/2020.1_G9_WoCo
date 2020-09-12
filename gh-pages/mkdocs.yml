@@ -1,6 +1,6 @@
 site_name:  Workout Controler - Woco
 repo_name: 'Woco'
-repo_url: 'https://github.com/UnBArqDsw/2020.1_G4_Vestibulandos'
+repo_url: 'https://github.com/UnBArqDsw/2020.1_G9_WoCo'
 theme:
     name: 'material'
     palette:
@@ -8,4 +8,3 @@ theme:
 
 
 docs_dir: ../docs/
-site_dir: ../docs/
