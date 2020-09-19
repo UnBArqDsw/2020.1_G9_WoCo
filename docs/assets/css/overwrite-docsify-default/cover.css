@@ -1,0 +1,27 @@
+.cover {
+  background: #5d608b !important;
+}
+
+.cover.show {
+  border-bottom: .2rem solid #1d3075;
+}
+
+.cover-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.cover-main h1 { 
+  color: #1d3075 !important;
+  font-size: 2rem !important;
+}
+
+.cover-main p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+pre::after {display: none !important;}

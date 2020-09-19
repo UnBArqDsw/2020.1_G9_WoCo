@@ -2,7 +2,8 @@
 
 ## 1. Modelagem BPMN das metodologias Scrum e XP
 
-<img src="../images/modelagem-bpmn-metodologia-scrum-xp.png" width="1000" />
+<!-- <img src="../1.3%20Módulo%20Processos-Metodologias-Abordagens%20(Modelagem%20BPMN)/images/modelagem-bpmn-metodologia-scrum-xp.png" width="1000" /> -->
+![Modelagem BPMN](../images/modelagem-bpmn-metodologia-scrum-xp.png)
 
 ## 1. Detalhamento
 
