@@ -3,7 +3,7 @@
 ## Duração da sprint
 | Início | Término |
 |:------:|:-------:|
-| 01/04/2020 | 11/04/2020 |
+| 01/09/2020 | 11/09/2020 |
 
 ## Objetivo da Sprint
 Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e modelagem. 
@@ -54,4 +54,4 @@ Consolidade arteatos de  pré-rastreabilidade, elicitação de requisitos e mode
 
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
-|01/04/2020|0.1|Sprint Planning|Eugênio Sales|
+|01/09/2020|0.1|Sprint Planning 0|Eugênio Sales|
