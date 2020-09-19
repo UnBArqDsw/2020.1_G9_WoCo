@@ -46,7 +46,8 @@ ___
 
 ## Sprint Burndown
 
-<img width="800" src="./images/sprint-0-burndown.png" >
+<!-- <img width="800" src="../images/sprint-0-burndown.png" > -->
+![Sprint-0-Burndown](../images/sprint-0-burndown.png)
 
 ## Sprint Velocity
     * O velocity será apresentado a partir da próxima sprint
