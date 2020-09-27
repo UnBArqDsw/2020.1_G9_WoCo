@@ -4,10 +4,11 @@
 |    Data    | Versão |       Descrição       |    Autor(es)     |
 | :--------: | :----: | :-------------------: | :--------------: |
 | 22/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
+| 26/09/2020 |  2.0   | Adicionando segunda versão do diagrama | Davi Alves |
 
 ## 1. Introdução
 
-Um diagrama de pacotes são frequentemente utilizados para
+Os diagramas de pacotes são frequentemente utilizados para
 representar subsistemas, módulos ou parte da arquitetura de um
 sistema. Seu elemento principal é o pacote.
 
@@ -28,7 +29,14 @@ dependências entre pacotes ou entre elementos dos pacotes.
 
 ## 2. Diagrama de Pacotes
 
+Versão-01
+
 ![Diagrama de Pacotes](../../images/package-diagram.png)
+
+Versão-02
+
+![Diagrama de Pacotes](../../images/package-diagram-v2.png)
+
 
 ## Referências
 
