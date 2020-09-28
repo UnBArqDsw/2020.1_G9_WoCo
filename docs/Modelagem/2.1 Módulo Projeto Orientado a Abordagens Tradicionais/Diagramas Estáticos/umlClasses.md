@@ -15,7 +15,7 @@
 </a>
 
 ### Versão 2.0 com Depedência e Associação
-<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/blob/feat/UML-class-diagram/docs/Modelagem/images/umlClass1.png">
+<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/blob/feat/UML-class-diagram/docs/Modelagem/images/umlClass2.png">
 
 
 ![UML Classes 2.0](../../images/umlClass2.png)
