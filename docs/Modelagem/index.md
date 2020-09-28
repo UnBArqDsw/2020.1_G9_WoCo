@@ -2,7 +2,11 @@
 
 ### Diagramas Estáticos
 
-* [Classes](Modelagem/2.1%20Módulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Estáticos/umlClasses.md)
+* [Diagrama de Classes](Modelagem/2.1%20Módulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Estáticos/umlClasses.md)
+
+* [Diagrama de Pacotes](Modelagem/2.1%20Módulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Estáticos/Diagrama-pacotes.md)
+
+* [Diagrama de Componentes](Modelagem/2.1%20Módulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Estáticos/Diagrama-componentes.md)
 
 ### Diagramas Dinâmicos
 

@@ -1,13 +1,5 @@
 # Diagrama de Componentes
 
-#### Histórico de revisões
-|    Data    | Versão |       Descrição       |    Autor(es)     |
-| :--------: | :----: | :-------------------: | :--------------: |
-| 25/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
-| 28/09/2020 |  2.0   | Atualizando o documento | Davi Alves |
-
-
-
 ## 1. Introdução
 
 O Diagrama de Componentes apresenta uma visão estática de como o sistema será implementado e quais os componentes utilizados. Através deste diagrama, são identificados os arquivos que irão compor o software em termos de módulos, bibliotecas, formulários, etc., além de identificar os relacionamentos destes. Além de modelar os componentes, este diagrama destaca a função de cada componente, facilitando a sua reutilização em outros sistemas.
@@ -42,7 +34,6 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 
 *Versão 2.0 - Diagrama de Componentes Registros*
 
-
 ## Referências
 
 [1] UML Component Diagrams. Disponível em: <https://www.uml-diagrams.org/component-diagrams.html>. Acesso em: 25 set. 2020.
@@ -54,3 +45,10 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 [4] UML Component Diagrams Reference. Disponível em: <https://www.uml-diagrams.org/component-diagrams-reference.html>. Acesso em: 25 set. 2020.
 
 [5] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: <https://aprender3.unb.br/course/view.php?id=158>. Acesso em: 25 set. 2020.
+
+
+#### Histórico de revisões
+|    Data    | Versão |       Descrição       |    Autor(es)     |
+| :--------: | :----: | :-------------------: | :--------------: |
+| 25/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
+| 28/09/2020 |  2.0   | Atualizando o documento | Davi Alves |

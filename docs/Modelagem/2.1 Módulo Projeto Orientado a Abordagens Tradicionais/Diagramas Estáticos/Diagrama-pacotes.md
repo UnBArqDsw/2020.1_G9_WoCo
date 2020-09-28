@@ -1,11 +1,5 @@
 # Diagrama de Pacotes
 
-#### Histórico de revisões
-|    Data    | Versão |       Descrição       |    Autor(es)     |
-| :--------: | :----: | :-------------------: | :--------------: |
-| 22/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
-| 26/09/2020 |  2.0   | Adicionando segunda versão do diagrama | Davi Alves |
-
 ## 1. Introdução
 
 Os diagramas de pacotes são frequentemente utilizados para
@@ -43,3 +37,9 @@ Versão-02
 [1] UML Package Diagrams Overview. Disponível em: <https://www.uml-diagrams.org/package-diagrams-overview.html>. Acesso em: 22 set. 2020.
 
 [2] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: <https://aprender3.unb.br/course/view.php?id=158>. Acesso em: 22 set. 2020.
+
+#### Histórico de revisões
+|    Data    | Versão |       Descrição       |    Autor(es)     |
+| :--------: | :----: | :-------------------: | :--------------: |
+| 22/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
+| 26/09/2020 |  2.0   | Adicionando segunda versão do diagrama | Davi Alves |
