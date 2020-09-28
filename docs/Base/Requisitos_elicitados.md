@@ -18,15 +18,23 @@ O uso da técnica de análise de discurso foi feita a partir de duas pessoas con
 | RF05 | O usuário pode adicionar exercícios por grupamento muscular para determinado treino | Must | Entrevista - Introspecção|
 | RF06 | O usuário pode adicionar quantidade de repetições e carga para cada exercício na montagem do treino  | Would | Entrevista |
 | RF07 | O usuário pode agendar os treinos  | Would | Entrevista |
-| RF08| O usuário pode cronometrar o tempo das atividade em execução|Could|Questionário|
-|RF09|O usuário pode criar seus treinos em uma lista personalizada de exercícios|Could|Entrevista|
-|RF10| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entrevista|
-|RF11| O aplicativo deve possuir animações para induzir o usuário em como proceder com suas atividades físicas|Must|Questionário|
-|RF12| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entrevista|
-|RF13| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
-|RF14| O usuário deve poder realizar check-in dos dias que cumpriu com seus treinos através de um calendário.|Should|Entrevista|
-|RF15| O usuário deve poder adicionar e editar suas informações pessoais, como altura, peso e medidas corporais.|Should|Entrevista - Introspecção|
-|RF16| O aplicativo deve mostrar a evolução do usuário em relação ao seu histórico de peso corporal, medidas e demais dados informados pelo usuário.|Would|Entrevista - Introspecção|
+|RF08|O usuário pode criar seus treinos em uma lista personalizada de exercícios|Could|Entrevista|
+|RF09| O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado|Could|Entrevista|
+|RF10| O aplicativo deve possuir animações para induzir o usuário em como proceder com suas atividades físicas|Must|Questionário|
+|RF11| O aplicativo deve mostrar a rotina de treinos disposta em semanas|Would|Entrevista|
+|RF12| O aplicativo informará a quantidade total de calorias gastas na realização das atividades/treinos|Could|Brainstorming|
+|RF13| O usuário deve poder realizar check-in dos dias que cumpriu com seus treinos através de um calendário.|Should|Entrevista|
+|RF14| O usuário deve poder adicionar e editar suas informações pessoais, como altura, peso e medidas corporais.|Should|Entrevista - Introspecção|
+|RF15| O aplicativo deve mostrar a evolução do usuário em relação ao seu histórico de peso corporal, medidas e demais dados informados pelo usuário.|Would|Entrevista - Introspecção|
+|RF16|   O Atleta deve ter exercicios pré definido    | Could|Questionário|
+|RF17|   O Atleta deve seguir uma checklist de atividades    | Would|Questionário|
+|RF18|   A aplicação deve mostrar quais musculos serão exercitados| Would|Questionário|
+|RF19|   A aplicação deve mostrar qual o gasto calorico aproximado ao final das atividades| Could|Questionário|
+|RF20|   A aplicação deve auxiliar na alimentação diaria do atleta| Could|Questionário|
+|RF21|   A aplicação deve salvar os exercicios executados| Could|Questionário|
+|RF22|   A aplicação deve marcar o tempo total dos exercicios| Could|Questionário|
+|RF23|   A aplicação deve mostrar o desempenho do atleta| Could|Questionário|
+|RF24|   A aplicação deve ter relatorios semanais e diarios| Could|Questionário|
 
 ### Requisitos Não Funcionais
 |Índice|Descrição|Rastreabilidade|
