@@ -14,6 +14,9 @@ Os diagramas de comunicação UML , como os diagramas de sequência - uma espéc
 
 ![Diagrama de Comunicação](../../images/diagrama_comunicacao.png)
 
+### Referências
+
+[1] Monitoria de Engenharia de Software - Diagrama de Comunicação UML. Disponível em: <https://monitoriadeengenhariadesoftware.wordpress.com/2016/03/20/diagrama-de-comunicacao/>. Acesso em: 27 de Setembro 2020.
 
 #### Histórico de revisões
 |    Data    | Versão |       Descrição       |    Autor(es)     |
