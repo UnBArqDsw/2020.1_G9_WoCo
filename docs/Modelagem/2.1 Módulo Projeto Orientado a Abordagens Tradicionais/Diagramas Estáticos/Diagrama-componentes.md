@@ -37,7 +37,7 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 ![Diagrama de Componentes Registros v2](../../images/component-diagram-v2.png)
 *Versão 2.0 - Diagrama de Componentes Registros*
 
-
+2
 ## Referências
 
 [1] UML Component Diagrams. Disponível em: <https://www.uml-diagrams.org/component-diagrams.html>. Acesso em: 25 set. 2020.
