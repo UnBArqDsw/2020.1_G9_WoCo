@@ -18,7 +18,8 @@
 |Data|Versão|Alteração|Autor|
 |----|------|---------|-----|
 | 22/09/2020 | 0.1 | Criação do diagrama de classes UML | Ernando Braga |
-| 27/09/2020 | 1.0 | Adição de relacionamento de classes UML | Ernando Braga e Eugênio Sales | 
+| 27/09/2020 | 1.0 | Adição de relacionamento de classes UML | Ernando Braga |
+| 27/09/2020 | 1.1 | Adição de Classes Concretas, Abstratas, Sobrescrita e Sobrecarga, e Dependência e Associação | Ernando Braga |
 
 
 ### Referências
