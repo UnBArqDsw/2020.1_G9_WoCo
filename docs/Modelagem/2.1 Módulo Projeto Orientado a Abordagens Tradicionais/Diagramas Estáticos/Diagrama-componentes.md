@@ -4,7 +4,11 @@
 |    Data    | Versão |       Descrição       |    Autor(es)     |
 | :--------: | :----: | :-------------------: | :--------------: |
 | 25/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
+<<<<<<< HEAD
 | 28/09/2020 |  2.0   | Atualizando o documento | Davi Alves |
+=======
+| 28/09/2020 |  1.0   | Atualizando o documento | Davi Alves |
+>>>>>>> 226c9ae500a65732e7242a490912332d7fd65f74
 
 ## 1. Introdução
 
@@ -25,6 +29,7 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 
 > Num primeiro momento o diagrama de componentes foi elaborado para mostrar de forma geral e ampla, com apenas o foco no login para o usuario que sera setado como "Treinador" ou "Atleta".
 
+<<<<<<< HEAD
 ![Diagrama de Componentes Completo v1](../../images/component-diagram-full-v1.png)
 *Versão 1.0 - Diagrama de Componentes Completo* 
 
@@ -37,6 +42,23 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 ![Diagrama de Componentes Registros v2](../../images/component-diagram-v2.png)
 *Versão 2.0 - Diagrama de Componentes Registros*
 
+=======
+Versão 1.0
+
+![Diagrama de Componentes Completo v1](../../images/component-diagram-full-v1.png)
+
+> O segundo diagrama foca no sub sistema que possui as funcionalidades principais do WoCo, foi separada da primeira para melhor organização e para não cruzar os relacionamentos. 
+
+Versão 1.0
+
+![Diagrama de Componentes Registros v1](../../images/component-diagram-v1.png)
+
+
+Versão 2.0
+
+![Diagrama de Componentes Registros v2](../../images/component-diagram-v2.png)
+
+>>>>>>> 226c9ae500a65732e7242a490912332d7fd65f74
 
 ## Referências
 
