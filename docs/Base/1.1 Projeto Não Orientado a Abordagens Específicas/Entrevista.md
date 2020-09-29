@@ -5,6 +5,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |03/09/2020|   0.1    | Iniciando o documento       |  Weiller Fernandes  |
 |03/09/2020|   0.2    | Adicionando entrevistas 01 e 02 | Weiller Fernandes |
+|28/09/2020|  0.3     | Adicionando lista de requisitos elicitados | Weiller Fernandes |
 
 ## 1. Introdução
 
@@ -67,6 +68,26 @@ Foram realizadas duas entrevistas majoritariamente abertas, mas com algumas perg
 
 **6. Poderia falar mais sobre essa opção de sugestão de novos exercícios?**<br>
 "Por exemplo, eu poderia informar para o app qual meu objetivo, se é emagrecer, ganhar massa muscular, focar em algum músculo específico, melhorar o cardio... Assim o aplicativo poderia sugerir alguns exercícios com base nessas informações."
+
+## Requisitos Elicitados
+
+### Legenda
+- E -> Entrevista
+- RF -> Requisito Funcional
+- RNF -> Requisito Não Funcional
+
+|   ID   |  Descrição  |        Tipo       |
+|:--------:|:--------:|:----------------------:|
+|E01|   O usuário pode adicionar exercícios por grupamento muscular para determinado treino | RF05|
+|E02|   O usuário pode adicionar quantidade de repetições e carga para cada exercício na montagem do treino | RF06|
+|E03|   O usuário pode agendar os treinos | RF07|
+|E04|   O usuário pode criar seus treinos em uma lista personalizada de exercícios | RF08|
+|E05|   O aplicativo deve possuir treinos pré definidos para os níveis Básico, Médio e Avançado| RF09|
+|E06|   O aplicativo deve mostrar a rotina de treinos disposta em semanas| RF11|
+|E07|   O usuário deve poder realizar check-in dos dias que cumpriu com seus treinos através de um calendário| RF13|
+|E08|   O usuário deve poder adicionar e editar suas informações pessoais, como altura, peso e medidas corporais| RF14|
+|E09|   O aplicativo deve mostrar a evolução do usuário em relação ao seu histórico de peso corporal, medidas e demais dados informados pelo usuário| RF15|
+|E10|   O aplicativo deve possibilitar o uso offline| RNF08|
 
 ## Referências
 
