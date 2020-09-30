@@ -33,7 +33,7 @@ Estudar os padrões de projeto GRASP e GOF para documentação de possíveis alt
 | 22 | 3 | 25 |
 
 
-## Presença na sprint planning 1 (04/04/2020)
+## Presença na sprint planning 1 (29/09/2020)
 
 | Nome    | Presença |    
 |:-------:|:--------:|
