@@ -12,13 +12,12 @@ Estudar os padrões de projeto GRASP e GOF para documentação de possíveis alt
 
 |Issue|Responsável|Épico|Pontos|
 |:---:|:---------:|:---:|:----:|
-| Estudo GOF Criacional | Eugênio e Ernando | | 3 |
-| Estudo GOF Estrutural | Ernando e Bruno | | 5 |
-| Estudo GOF Comportamental | Bruno e Eugênio | | 3 |
-| Estudo GRASP | Weiller e Davi |  | 5 |
-| Ambientação do Frontend | Eugênio |  | 2 |
-| Ambientação do Backend | Davi |  | 2 |
-| Ambientação do Backend | Davi |  | 2 |
+| Estudo GOF Criacional | Eugênio e Ernando | Padrões de projeto | 3 |
+| Estudo GOF Estrutural | Ernando e Bruno | Padrões de projeto | 5 |
+| Estudo GOF Comportamental | Bruno e Eugênio | Padrões de projeto | 5 |
+| Estudo GRASP | Weiller e Davi | Padrões de projeto | 5 |
+| Ambientação do Frontend | Eugênio | Frontend | 2 |
+| Ambientação do Backend | Davi | Backend | 2 |
 
 
 ## Débitos
