@@ -15,22 +15,26 @@ Esse método tem por característica a definição do esqueleto de um algoritmo 
 #### Definição
 
 ``` Dart
-abstract class Alimento {
-   double getCalorias();
+import 'package:http/http.dart' as http;
+
+
+abstract class Request {
+    String baseUrl = "https://jsonplaceholder.typicode.com";
+    dynamic get();
 }
 
-class Whey implements Alimento {
+class Todo extends Request {
     @override
-    double getCalorias() {
-      return 100.00;
+    dynamic get() async {
+      return await http.get('${BaseUrl}/todos/1');
     }
 }
 
-class Arroz implements Alimento {
-  @override
-  double getCalorias() {
-    return 1000.00;
-  }
+class Photo extends Request {
+    @override
+    dynamic get() async {
+      return await http.get('${BaseUrl}/photos/1');
+    }
 }
 ```
 
