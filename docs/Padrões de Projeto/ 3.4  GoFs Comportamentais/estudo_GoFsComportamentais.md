@@ -42,6 +42,17 @@ class Photo extends Request {
 
 Dentro do contexto de uso no WoCo, o Template method pode ser utilizado nos requests http, onde a classe abstrata referencia a url base da chamada e os verbos https necessários e cada endpoint implementa propriamente com suas especificações. E em outros casos, onde possa seja aplicável sobrescrita de métodos para classes com tal padrão.
 
+### Observer
+Defina uma dependência um-para-muitos entre os objetos para que, quando um objeto mudar de estado, todos os seus dependentes sejam notificados e atualizados automaticamente. Tendo em mente esta definição, uma aplicação plausível para a aplicação WoCo é na forma de resertar senha que ao solicitar ***alterar sua senha*** seu email de cadastrado é notificado e consequentemente seus dados de cadastro no banco são atualizados para então confirmarmos tal ação.
+
+
+```Dart
+@override
+    Future<void> resetPassword(String email) async {
+      await _firebaseAuth.sendPasswordResetEmail(email: email);
+    }
+```
+
 
 ## Referências
 
