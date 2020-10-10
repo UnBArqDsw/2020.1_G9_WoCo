@@ -53,6 +53,20 @@ Defina uma dependência um-para-muitos entre os objetos para que, quando um obje
     }
 ```
 
+Ou até mesmo quando o usuário quiser excluir sua conta de Treino, os objetos relacionados, tais como, os exercícios e ***set*** de Treinos do WoCo serão notificados e automaticamente deletados. 
+
+```Dart
+
+var user = firebase.auth().currentUser; // Instanciando o usuário atual
+
+user.delete().then(function() {
+  print("Usuário deletado")
+}).catch(function(error) {
+  print("Error")
+});
+s
+```
+
 
 ## Referências
 
