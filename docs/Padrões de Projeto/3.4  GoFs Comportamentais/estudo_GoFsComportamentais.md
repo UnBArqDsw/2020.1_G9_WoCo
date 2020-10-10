@@ -76,3 +76,5 @@ s
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |06/10/2020|   0.1    | Iniciando o documento       |  Eugênio Sales  |
+|08/10/2020|0.2|Adicionando Padrão Observer|Bruno Duarte|
+|||||
