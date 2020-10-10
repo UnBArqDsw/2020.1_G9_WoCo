@@ -53,6 +53,71 @@ class AdicionarTreino implements ListItem {
 }
 ```
 
+## Composite
+Composite é um padrão de design estrutural que permite compor objetos em estruturas de árvores e trabalhar com essas estruturas como se fossem objetos individuais. O padrão composite compõe objetos em termos de uma estrutura em árvore para representar partes e hierarquias inteiras.
+
+No contexto do Woco podemos exemplificar com os seguintes trechos de códigos. Onde cada ação como verificar login, deletar usuário, e atualizar informações do usuário.<br>
+
+> Verificar Login
+```Dart
+
+    Future<bool> isLogged(){
+        var user = firebase.auth().currentUser;
+
+        if (user) 
+            return true;
+        else 
+            return false; 
+    }
+
+```
+
+
+> Deletar Usuário
+```Dart
+
+    Future<bool> deleteUser(){
+        var user = firebase.auth().currentUser;
+        user.delete().then(function() {
+        // User deleted.
+        }).catch(function(error) {
+        // An error happened.
+        });
+        }
+
+```
+
+> Setar/Cadastrar Usuário
+```Dart
+
+Future<bool> setUser(){
+    var user = firebase.auth().currentUser;
+    var name, email, photoUrl, uid, emailVerified;
+
+    if (user != null) {
+    name = user.displayName;
+    email = user.email;
+    photoUrl = user.photoURL;
+    emailVerified = user.emailVerified;
+    uid = user.uid;  }
+        }
+
+```
+> Atualizar Usuário
+```Dart
+Future<void> updateProfile{
+
+    var user = firebase.auth().currentUser;
+    user.updateProfile({
+    displayName: "Jane Q. User",
+    photoURL: "https://example.com/jane-q-user/profile.jpg"
+    }).then(function() {
+    // Update successful.
+    }).catch(function(error) {
+    // An error happened.
+    });
+    }
+```
 
 ## Referências
 
@@ -61,4 +126,5 @@ class AdicionarTreino implements ListItem {
 #### Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
-|10/10/2020|   0.1    | Iniciando o documento     | Bruno Duarte e Ernando braga  |
+|10/10/2020|   0.1    | Iniciando o documento     | Bruno Duarte e Ernando Braga|
+|10/10/2020|   0.1    | Adicionando Composite  | Bruno Duarte|
