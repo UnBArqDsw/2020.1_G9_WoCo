@@ -100,6 +100,37 @@ if __name__ = "__main__":
 
 No contexto do WoCo, podemos usar o Abstract Factory para a criação dos nossos usuários, já que teremos dois tipos de usuários: Treinador e Atleta, que terão diferentes objetivos e responsabilidades dentro do nosso sistema.
 
+### Singleton
+
+O Singleton é um design pattern que permite garantir que uma classe vai gerar apenas uma única instância dela e prover um acesso global a aquela instância. É útil quando queremos ter o controle de acesso a recursos compartilhados, como a base de dados ou um arquivo.
+
+#### Definição
+
+```Python
+# singleton.py
+def Singleton:
+  _instance = None
+
+  def __new__(cls):
+    if cls._instance is None:
+      cls._instance = super().__new__(cls)
+    return cls._instance
+
+# main.py
+from singleton import Singleton
+foo = Singleton()
+bar = Singleton()
+foo is bar
+>>> True
+foo.some_attribute = 'some value'
+bar.some_attribute
+>>> 'some value'
+```
+
+#### Aplicação no WoCo
+
+Podemos utilizar no back-end do WoCo para se conectar a base de dados, e garantir que sempre que em algum lugar da aplicação precisar de comunicar com a base de dados, terá um objeto compartilhado.
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
@@ -108,3 +139,4 @@ No contexto do WoCo, podemos usar o Abstract Factory para a criação dos nossos
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |11/10/2020|   0.1    | Iniciando o documento       |  Eugênio Sales  |
+|12/10/2020|   0.2    | Adicionado Abstract Factory e Singleton patterns  |  Ernando braga  |
