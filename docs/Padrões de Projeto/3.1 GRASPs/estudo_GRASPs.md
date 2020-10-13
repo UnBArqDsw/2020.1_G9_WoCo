@@ -7,6 +7,7 @@
 |06/10/2020| 0.2 | Adicionando os GRASPs Criador e Especialista | Weiller Fernandes |
 |13/10/2020| 0.3 | Adicionando os GRASPs Alta Coesão e Baixo Acoplamento | Weiller Fernandes|
 |13/10/2020| 0.4 | Adicionando os GRASPs Controladora e Polimorfismo | Weiller Fernandes|
+|13/10/2020| 0.5 | Adicionando os GRASPs Invenção Pura, Indireção e Variações Protegidas | Weiller Fernandes |
 
 ## 1. Introdução
 
@@ -65,9 +66,36 @@ Polimorfismo é um princípio a partir do qual as classes derivadas de uma únic
 
 [Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
 
+### Invenção Pura
+
+Uma invenção pura é uma classe artificial que não representa um conceito no domínio do problema, especialmente feito para conseguir baixo acoplamento, alta coesão e o potencial de reutilização derivado. No WoCo, a classe Pesquisa pode ser considerado um exemplo de invenção pura, já que ela é responsável por realizar as pesquisas de treinos e dietas. Outra classe de invenção pura é a já citada classe de Autenticacao, que é responsável por autenticar o usuário dentro da plataforma.
+
+![INVENÇÃO PURA](../img/invencao_pura.png)
+
+![INVENÇÃO PURA 2](../img/controladora.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+### Indireção
+
+O padrão indireção ajuda a manter o baixo acoplamento, através de delegação de responsabilidades através de uma classe mediadora, ou seja, o objetivo do padrão indireção é atribuir responsabilidade a um objeto intermediário para ser o mediador entre outros componentes ou serviços, para que eles não sejam diretamente acoplados. O intermediário cria uma indireção entre os outros componentes. No WoCo, a classe de Pesquisa também é um exemplo de indireção, pois ela funciona como um intermediário entre as classes Treino e Dieta e a camada de persistência.
+
+![INDIREÇÃO](../img/invencao_pura.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+### Variações Protegidas
+
+O padrão variações protegidas protege elementos das variações em outros elementos (objetos, sistemas, subsistemas) envolvendo o foco de instabilidade com uma interface e usando polimorfismo para criar várias implementações desta interface. No WoCo, temos o exemplo de variações protegidas nas classes Treinador e Atleta, pois ambas se relacionam com as classes Treino e Dieta, porém cada uma da sua maneira, seja criando, editando, deletando, iniciando e interrompendo esses treinos e dietas.
+
+![VARIAÇÕES PROTEGIDAS](../img/polimorfismo.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
 [2] Acoplamento e Coesão. Disponível em: https://www.ateomomento.com.br/acoplamento-e-coesao/
 [3] GRASP (padrão orientado a objetos), Padrão Controladora. Disponível em: https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)#Controller_(controlador)
 [4] Conceitos e Exemplos – Polimorfismo: Programação Orientada a Objetos. Disponível em: https://www.devmedia.com.br/conceitos-e-exemplos-polimorfismo-programacao-orientada-a-objetos/18701
+[5] GRASP (padrão orientado a objetos), Padrão Invenção Pura. Disponível em: https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)#Pure_fabrication_(inven%C3%A7%C3%A3o_pura)
