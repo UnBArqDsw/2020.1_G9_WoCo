@@ -3,9 +3,10 @@
 #### Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
-|06/10/2020|   0.1    | Iniciando o documento       |  Weiller Fernandes  |
-|06/10/2020|   0.2    | Adicionando os GRASPs Criador e Especialista | Weiller Fernandes |
-|13/10/2020|   0.3    | Adicionando os GRASPs Alta Coesão e Baixo Acoplamento | Weiller Fernandes|
+|06/10/2020| 0.1 | Iniciando o documento       |  Weiller Fernandes  |
+|06/10/2020| 0.2 | Adicionando os GRASPs Criador e Especialista | Weiller Fernandes |
+|13/10/2020| 0.3 | Adicionando os GRASPs Alta Coesão e Baixo Acoplamento | Weiller Fernandes|
+|13/10/2020| 0.4 | Adicionando os GRASPs Controladora e Polimorfismo | Weiller Fernandes|
 
 ## 1. Introdução
 
@@ -48,7 +49,25 @@ O acoplamento pode ser entendido como a união ou ligação entre dois ou mais c
 
 [Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
 
+### Controladora
+
+O padrão controlador atribui a responsabilidade de manipular eventos do sistema para uma classe que não seja de interface do usuário (UI) que representa o cenário global ou cenário de caso de uso. Um objeto controlador é um objeto de interface não-usuário, responsável por receber ou manipular um evento do sistema. Dentro do WoCo, um exemplo de controladora pode ser dado pela classe Autenticacao, pois essa é responsável por controlar e tratar os eventos relacionados à autenticação do usuário, como o login, signUp e recuperação de senha.
+
+![CONTROLADORA](../img/controladora.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+### Polimorfismo
+
+Polimorfismo é um princípio a partir do qual as classes derivadas de uma única classe base são capazes de invocar os métodos que, embora apresentem a mesma assinatura, comportam-se de maneira diferente para cada uma das classes derivadas. Com o polimorfismo, os mesmos atributos e métodos podem ser utilizados em objetos distintos, porém, com implementações lógicas diferentes. No aplicativo WoCo, as classes Treinador e Atleta herdam da classe abstrata Usuario, as informações necessárias para cada instância de seus objetos. Sendo assim, essas classes exemplificam a aplicação do polimorfismo no app.
+
+![POLIMORFISMO](../img/polimorfismo.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
 [2] Acoplamento e Coesão. Disponível em: https://www.ateomomento.com.br/acoplamento-e-coesao/
+[3] GRASP (padrão orientado a objetos), Padrão Controladora. Disponível em: https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)#Controller_(controlador)
+[4] Conceitos e Exemplos – Polimorfismo: Programação Orientada a Objetos. Disponível em: https://www.devmedia.com.br/conceitos-e-exemplos-polimorfismo-programacao-orientada-a-objetos/18701
