@@ -5,6 +5,7 @@
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |06/10/2020|   0.1    | Iniciando o documento       |  Weiller Fernandes  |
 |06/10/2020|   0.2    | Adicionando os GRASPs Criador e Especialista | Weiller Fernandes |
+|13/10/2020|   0.3    | Adicionando os GRASPs Alta Coesão e Baixo Acoplamento | Weiller Fernandes|
 
 ## 1. Introdução
 
@@ -17,7 +18,7 @@ Esse documento busca formalizar o estudo inicial dos GRASPs, definindo e correla
 
 ### Criador
 
-Padrão de projeto que representa classes responsáveis por criar instâncias. No caso do aplicativo WoCo, uma classe que pode ser um creator é a classe de Usuário, que é responsável por criar o usuário, seja ele treinador ou atleta, dentro da plataforma. Outra opção de criador é a classe Treinador, pois essa classe é responsável por criar treinos e dietas que ficarão disponíveis para o atleta.
+Padrão de projeto que representa classes responsáveis por criar instâncias. No caso do aplicativo WoCo, uma classe que pode ser um creator é a classe de Usuario, que é responsável por criar o usuário, seja ele treinador ou atleta, dentro da plataforma. Outra opção de criador é a classe Treinador, pois essa classe é responsável por criar treinos e dietas que ficarão disponíveis para o atleta.
 
 ![CREATOR](../img/creator.png)
 
@@ -25,12 +26,29 @@ Padrão de projeto que representa classes responsáveis por criar instâncias. N
 
 ### Especialista
 
-Padrão de projeto que se preocupa em atribuir responsabilidades para a entidade mais especialista em um dado aspecto. Um exemplo de especialista no WoCo é a Classe Dieta, que é especialista em calcular a quantidade total de calorias de uma dieta, por exemplo. Nesse caso a classe Alimentação deve fornecer o valor das calorias de cada alimento para a classe Dieta, e essa calcula o valor total com base nos dados fornecidos pela classe Alimentação.
+Padrão de projeto que se preocupa em atribuir responsabilidades para a entidade mais especialista em um dado aspecto. Um exemplo de especialista no WoCo é a Classe Dieta, que é especialista em calcular a quantidade total de calorias de uma dieta, por exemplo. Nesse caso a classe Alimentacao deve fornecer o valor das calorias de cada alimento para a classe Dieta, e essa calcula o valor total com base nos dados fornecidos pela classe Alimentacao.
 
 ![ESPECIALISTA](../img/especialista.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+### Alta Coesão
+
+O conceito da coesão está intimamente ligado ao Princípio da Responsabilidade Única (SRP) do SOLID. O SRP aplica-se a qualquer artefato contido no modelo do software, como classes e objetos. Um componente com Alta Coesão é um componente que possui apenas uma única responsabilidade, que possui em seu conteúdo ou funções, apenas aquilo que realmente deve fazer. No WoCo, um bom exemplo de alta coesão é a classe Exercicio, que possui apenas um identificador e a instrução de como o atleta deve executar aquele exercício para que ela seja feito de forma correta, ou seja, essa classe apresenta apenas as informações necessárias à ela.
+
+![ALTA COESÃO](../img/alta_coesao.png)
+
+[Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+### Baixo Acoplamento
+
+O acoplamento pode ser entendido como a união ou ligação entre dois ou mais corpos, formando um único conjunto. Em um software, o acoplamento acontece no relacionamento entre classes, tabelas, domínios, etc. O ideal é que esse acoplamento seja baixo, para que sua manutenção possa ser realizada de forma mais simples, caso contrário, se uma classe, função ou método precisar ser modificado, inúmeros outros também podem precisar passar por alterações em sua estrutura. No aplicativo WoCo, podemos ver um exemplo de baixo acoplamento entre as classes Alimentacao e Dieta. A classe Alimentacao fornece os valores de calorias de cada alimento para a classe Dieta, e essa faz o cálculo do total de calorias de toda a Dieta. Porém, se a forma como o total de calorias é calculado, precisar ser modificado no software ao longo do tempo, a classe Alimentacao não será afetada, pois ela não lida com o cálculo em si, apenas com o valor de calorias de cada alimento, isso demonstra um baixo acoplamento entre essas classes.
+
+![BAIXO ACOPLAMENTO](../img/especialista.png)
 
 [Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
 
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
+[2] Acoplamento e Coesão. Disponível em: https://www.ateomomento.com.br/acoplamento-e-coesao/
