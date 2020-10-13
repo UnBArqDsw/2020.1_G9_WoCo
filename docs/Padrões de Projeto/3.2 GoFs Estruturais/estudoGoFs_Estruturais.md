@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-OS Padrões de projetos são princípios e soluções usados durante a criação de um software que resolvem um problema específico e são generalizados, codificado em um formato estruturado e bem estabelecido. Os padrões de design comportamental (GoFs) preocupam-se com algoritmos e a atribuição de responsabilidades entre objetos baseando-se no comportamento.
+Os Padrões de projetos são princípios e soluções usados durante a criação de um software que resolvem um problema específico e são generalizados, codificado em um formato estruturado e bem estabelecido. Os padrões de design comportamental (GoFs) preocupam-se com algoritmos e a atribuição de responsabilidades entre objetos baseando-se no comportamento.
 
 Esse documento busca formalizar o estudo inicial dos GoFs, definindo e correlacionando cada um deles com o projeto WoCo, através dos artefatos de modelagem criados no módulo anterior.
 
@@ -58,73 +58,119 @@ Composite é um padrão de design estrutural que permite compor objetos em estru
 
 No contexto do Woco podemos exemplificar com os seguintes trechos de códigos. Onde cada ação como verificar login, deletar usuário, e atualizar informações do usuário.<br>
 
-> Verificar Login
+> Treino e exercícios
 ```Dart
-
-    Future<bool> isLogged(){
-        var user = firebase.auth().currentUser;
-
-        if (user) 
-            return true;
-        else 
-            return false; 
+    class Exercise {
+        String name;
+        String description;
+        void isDone(exercise);
     }
 
-```
+    class Workout implements Exercise {
+        String name;
+        Set<Exercicio> _exercises = Set();
 
+        Treino(BuildContext name);
 
-> Deletar Usuário
-```Dart
-
-    Future<bool> deleteUser(){
-        var user = firebase.auth().currentUser;
-        user.delete().then(function() {
-        // User deleted.
-        }).catch(function(error) {
-        // An error happened.
-        });
+        void isDone(exercise) {
+            print("exercise is done")
+            const exerciseIndex = _exercises.indexOf(exercise)
+            _exercises[exerciseIndex].isDone = true
         }
-
-```
-
-> Setar/Cadastrar Usuário
-```Dart
-
-Future<bool> setUser(){
-    var user = firebase.auth().currentUser;
-    var name, email, photoUrl, uid, emailVerified;
-
-    if (user != null) {
-    name = user.displayName;
-    email = user.email;
-    photoUrl = user.photoURL;
-    emailVerified = user.emailVerified;
-    uid = user.uid;  }
-        }
-
-```
-> Atualizar Usuário
-```Dart
-Future<void> updateProfile{
-
-    var user = firebase.auth().currentUser;
-    user.updateProfile({
-    displayName: "Jane Q. User",
-    photoURL: "https://example.com/jane-q-user/profile.jpg"
-    }).then(function() {
-    // Update successful.
-    }).catch(function(error) {
-    // An error happened.
-    });
     }
+```
+
+## Adapter
+
+Adapter é um design pattern que permite objectos com iterfaces imcompatíveis possam se comunicar e colaborar.
+
+```python
+class MotorCycle: 
+  
+    def __init__(self): 
+        self.name = "MotorCycle"
+  
+    def TwoWheeler(self): 
+        return "TwoWheeler"
+  
+  
+class Truck: 
+  
+    def __init__(self): 
+        self.name = "Truck"
+  
+    def EightWheeler(self): 
+        return "EightWheeler"
+  
+  
+class Car: 
+  
+    def __init__(self): 
+        self.name = "Car"
+  
+    def FourWheeler(self): 
+        return "FourWheeler"
+  
+class Adapter: 
+  
+    def __init__(self, obj, **adapted_methods): 
+        self.obj = obj 
+        self.__dict__.update(adapted_methods) 
+  
+    def __getattr__(self, attr): 
+        return getattr(self.obj, attr) 
+  
+    def original_dict(self): 
+        return self.obj.__dict__ 
+  
+  
+""" main method """
+if __name__ == "__main__": 
+  
+    objects = [] 
+  
+    motorCycle = MotorCycle() 
+    objects.append(Adapter(motorCycle, wheels = motorCycle.TwoWheeler)) 
+  
+    truck = Truck() 
+    objects.append(Adapter(truck, wheels = truck.EightWheeler)) 
+  
+    car = Car() 
+    objects.append(Adapter(car, wheels = car.FourWheeler)) 
+  
+    for obj in objects: 
+       print("A {0} is a {1} vehicle".format(obj.name, obj.wheels()))
+```
+
+## Decorator
+
+Decorator é um design pattern que permite adicionar novos comportamentos de forma dinâmica.
+
+>Decorator de login usando Flask
+```python
+from functools import wraps
+from flask import g, request, redirect, url_for
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if g.user is None:
+            return redirect(url_for('login', next=request.url))
+        return f(*args, **kwargs)
+    return decorated_function
 ```
 
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
 
+[2] Refactoring Guru. Disponível em: https://refactoring.guru/pt-br/design-patterns/behavioral-patterns
+
+[3] Documentação do Flask sobre decorators. Disponível em: https://flask.palletsprojects.com/en/1.1.x/patterns/viewdecorators/
+
 #### Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |10/10/2020|   0.1    | Iniciando o documento     | Bruno Duarte e Ernando Braga|
-|10/10/2020|   0.1    | Adicionando Composite  | Bruno Duarte|
+|10/10/2020|   0.2    | Adicionando Composite  | Bruno Duarte|
+|12/10/2020|   0.3    | Refatorando o Composite, e adicionando Adapter e Decorator  | Bruno Duarte e Ernando Braga|
