@@ -7,3 +7,9 @@
 
 - [Sprint 1 - Planning](sprints/planning/Sprint-1-planning.md)
 - [Sprint 1 - Review](sprints/review/Sprint-1-review.md)
+
+
+## Sprint 2
+
+- [Sprint 2 - Planning](sprints/planning/Sprint-2-planning.md)
+- [Sprint 2 - Review](sprints/review/Sprint-2-review.md)
