@@ -3,7 +3,7 @@
 ## Duração da sprint
 | Início | Término |
 |:------:|:-------:|
-| 29/09/2020 | 06/10/2020 |
+| 29/09/2020 | 13/10/2020 |
 
 ## Objetivo da Sprint
 Estudar os padrões de projeto GRASP e GOF para documentação de possíveis alternativas de aplicação no projeto delineado.
