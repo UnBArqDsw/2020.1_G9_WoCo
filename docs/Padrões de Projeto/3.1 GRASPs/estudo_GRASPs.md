@@ -8,6 +8,7 @@
 |13/10/2020| 0.3 | Adicionando os GRASPs Alta Coesão e Baixo Acoplamento | Weiller Fernandes|
 |13/10/2020| 0.4 | Adicionando os GRASPs Controladora e Polimorfismo | Weiller Fernandes|
 |13/10/2020| 0.5 | Adicionando os GRASPs Invenção Pura, Indireção e Variações Protegidas | Weiller Fernandes |
+|15/10/2020| 0.6 | Adicionando exemplo de GRASPs Criador, Especialista, Polimorfismo em flask | Davi Alves |
 
 ## 1. Introdução
 
@@ -26,6 +27,35 @@ Padrão de projeto que representa classes responsáveis por criar instâncias. N
 
 [Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
 
+Dentre os beneficios temos o baixo acoplamento que é suportado, o que implica menores dependências de manutenção e maiores oportunidades de reutilização. O acoplamento provavelmente não é aumentado porque a classe criada provavelmente já está visível para a classe criadora, devido às associações existentes que motivaram sua escolha como criador.
+ 
+Exemplo inicial:
+
+```
+from app import db
+from flask_login import UserMixin
+
+class Role(db.Model):
+    __tablename__ = 'roles'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(64), unique=True)
+    permissions = db.Column(db.Integer)
+    users = db.relationship('User',
+                            backref='role', lazy='dynamic')
+
+
+class User(UserMixin, db.Model): 
+    __tablename__ = 'users'
+    id = db.Column(db.Integer, primary_key=True)
+    type = db.Column(db.String(50))
+    name = db.Column(db.String(64), index=True)
+    email = db.Column(db.String(64), unique=True, index=True)
+
+    password_hash = db.Column(db.String(128))
+    role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))
+
+```
+
 ### Especialista
 
 Padrão de projeto que se preocupa em atribuir responsabilidades para a entidade mais especialista em um dado aspecto. Um exemplo de especialista no WoCo é a Classe Dieta, que é especialista em calcular a quantidade total de calorias de uma dieta, por exemplo. Nesse caso a classe Alimentacao deve fornecer o valor das calorias de cada alimento para a classe Dieta, e essa calcula o valor total com base nos dados fornecidos pela classe Alimentacao.
@@ -33,6 +63,42 @@ Padrão de projeto que se preocupa em atribuir responsabilidades para a entidade
 ![ESPECIALISTA](../img/especialista.png)
 
 [Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+Exemplo inicial:
+
+```
+class Diet(Form):
+    def __init__(self):
+        pass
+
+    LengthVal = FloatField('Length:', validators=[validators.required()])
+    WidthVal = FloatField('Width:', validators=[validators.required()])
+    ThickVal = FloatField('Thickness:', validators=[validators.required()])
+
+    @app.route('/', methods = ['POST', 'GET'])
+
+    def errors(self):
+        return "these are some errors"
+
+    def CalculateKCal(self):
+        form = ReusableForm(request.form)
+
+        print (form.errors)
+        if request.method == 'POST':
+            KCalinit = request.form['KCalinit']
+            KCalfood = request.form['KCalfood']
+            print (KCalinit, " ", KCalfood, " ")
+
+        if form.validate():
+            FinalCalc = KCalinit - KCalfood
+            FinalCalc = round(FinalCalc,2)
+            flash('Total Board Feet: ' + FinalCalc)
+     
+        else:
+            flash('Error: All form fields required')
+
+        return render_template('boards.html')
+```
 
 ### Alta Coesão
 
@@ -65,6 +131,57 @@ Polimorfismo é um princípio a partir do qual as classes derivadas de uma únic
 ![POLIMORFISMO](../img/polimorfismo.png)
 
 [Diagrama de Classes Completo](../../Modelagem/2.1%20M%C3%B3dulo%20Projeto%20Orientado%20a%20Abordagens%20Tradicionais/Diagramas%20Est%C3%A1ticos/umlClasses.md#vers%C3%A3o-20-com-deped%C3%AAncia-e-associa%C3%A7%C3%A3o)
+
+```python
+class Role(db.Model):
+    __tablename__ = 'roles'
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(64), unique=True)
+    permissions = db.Column(db.Integer)
+    users = db.relationship('User',
+                            backref='role', lazy='dynamic')
+
+
+class User(UserMixin, db.Model): 
+    __tablename__ = 'users'
+    id = db.Column(db.Integer, primary_key=True)
+    type = db.Column(db.String(50))
+    name = db.Column(db.String(64), index=True)
+    email = db.Column(db.String(64), unique=True, index=True)
+
+    password_hash = db.Column(db.String(128))
+    role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))
+
+    __mapper_args__ = {
+        'polymorphic_identity': 'users',
+        'with_polymorphic': '*',
+        "polymorphic_on": type
+    }
+
+class Coach(User):
+    __tablename__ = 'coach'
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    phone_number = db.Column(db.Integer)
+    other_Coach_data = db.Column(db.String)
+
+    __mapper_args__ = {
+        'polymorphic_identity': 'coach',
+        'with_polymorphic': '*'
+    }
+
+
+class Athlete(User):  
+    __tablename__ = 'athlete'
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('users.id'))
+    other_athlete_data = db.Column(db.String)
+
+    __mapper_args__ = {
+        'polymorphic_identity': 'athlete',
+        'with_polymorphic': '*'
+    }
+```
 
 ### Invenção Pura
 
