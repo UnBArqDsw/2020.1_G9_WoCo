@@ -3,21 +3,27 @@ Storyboard é uma ferramenta que pode ajudar os desenvolvedores a entender rapid
 
 ## Resumo
 A história que o storyboard tenta passar é de que um usuário sedentário que visa melhorar suas condições de saúde e consequentemente de estética procura uma forma de exercitar-se, ele tem uma ideia de algo que pode ajudá-lo nesta missão: WoCo. Depois de um tempo utilizando a aplicação os resultados começam a aparecer, gerando assim a satisfação do usuário. 
-### Versões
+## Versionamento Storyboard
 
+### Storyboard Versão inicial 
 > Storyboard versão inicial que foi idealizada pelo grupo durante as reuniões
 
 * Autor: Bruno Duarte 
 
 ![StoryBoard](../images/ST_WoCo_v0.jpg)
 
+<br>
 
+### Storyboard Versão 0.1 
 > Storyboard versão 0.1 que foi uma daptação da versão anterior digitalizada
 
 * Autor: Bruno Duarte
 
 ![StoryBoard](../images/ST_WoCo_v1.jpg)
 
+<br>
+
+### Storyboard Versão 0.2 
 
 > Storyboard versão 0.2 que foi uma coloração da etapa anterior
 * Autor: Bruno Duarte
@@ -43,4 +49,5 @@ Google Scholar
 | Data | Autor | Descrição | Versão |
 |------|-------|-----------|--------|
 | 24/10/2020 | Bruno Duarte | Criação e edição inicial da página. | 0.1 |
-|24/11/2019|Bruno Duarte|Adicionando versões do Storyboard|0.2|
+|24/11/2020|Bruno Duarte|Adicionando versões do Storyboard|0.2|
+|25/11/2020|Bruno Duarte|Adicionando versão final do Storyboard|0.3|
