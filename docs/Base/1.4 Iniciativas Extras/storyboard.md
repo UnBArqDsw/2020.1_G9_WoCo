@@ -1,6 +1,8 @@
 ## Storyboard
 Storyboard é uma ferramenta que pode ajudar os desenvolvedores a entender rapidamente o trabalho que precisa ser concluído. O Storyboard fornece transparência ao proprietário do produto e também ajuda a equipe na visualização de sequência e interconectividade das histórias de usuários.
 
+## Resumo
+A história que o storyboard tenta passar é de que um usuário sedentário que visa melhorar suas condições de saúde e consequentemente de estética procura uma forma de exercitar-se, ele tem uma ideia de algo que pode ajudá-lo nesta missão: WoCo. Depois de um tempo utilizando a aplicação os resultados começam a aparecer, gerando assim a satisfação do usuário. 
 ### Versões
 
 > Storyboard versão inicial que foi idealizada pelo grupo durante as reuniões
@@ -16,6 +18,11 @@ Storyboard é uma ferramenta que pode ajudar os desenvolvedores a entender rapid
 
 ![StoryBoard](../images/ST_WoCo_v1.jpg)
 
+
+> Storyboard versão 0.2 que foi uma coloração da etapa anterior
+* Autor: Bruno Duarte
+
+![StoryBoard](../images/ST_WoCo_v3.jpg)
 
 
 
