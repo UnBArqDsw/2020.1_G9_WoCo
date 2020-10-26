@@ -143,7 +143,7 @@ O objetivo da técnica de injeção de dependência é remover essa dependência
 4. O injetor que cria uma instância de serviço e a injeta no cliente.
 
 Python é uma linguagem interpretada com tipagem dinâmica. Há indícios de que a injeção de dependência não funciona para ele tão bem quanto para Java. Grande parte da flexibilidade já está incorporada. Alguns desenvolvedores Python dizem que a injeção de dependência pode ser implementada facilmente usando os fundamentos da linguagem.
-Na aplicação Woco é possivel ultilizar a classe container e assim desacoplar a partir da dependency_injector e deixar com alta coesão.
+Na aplicação Woco é possivel ultilizar a classe container e assim desacoplar a partir da dependency injector e deixar com alta coesão.
 
 ```python
 from dependency_injector import containers, providers
@@ -178,7 +178,7 @@ if __name__ == '__main__':
 
     main()  # <-- dependency is injected automatically
 
-    with container.api_client.override(mock.Mock()):
+    with container.coach.override(mock.Mock()):
         main()  # <-- overridden dependency is injected automatically
 ```
 
