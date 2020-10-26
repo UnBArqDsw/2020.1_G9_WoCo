@@ -30,6 +30,16 @@ A história que o storyboard tenta passar é de que um usuário sedentário que 
 
 ![StoryBoard](../images/ST_WoCo_v3.jpg)
 
+<br>
+
+
+### Storyboard Versão 0.3 
+
+> Storyboard versão 0.3 adicionando o enredo do storyboard em legendas
+* Autor: Bruno Duarte
+
+![StoryBoard](../images/ST_WoCo_v4.jpg)
+
 
 
 
