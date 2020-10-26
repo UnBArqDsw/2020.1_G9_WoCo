@@ -52,14 +52,83 @@ class WorkoutProvider with ChangeNotifier {
 ```
 O notifyListeners() é um método específico do ChangeNotifier e deve ser chamado sempre que houverem mudanças que possam alterar a IU do aplicativo. No WoCo, ele é chamado sempre quando um treino é adicionado, editado ou removido da lista de treinos do usuário, dessa forma a mudança é processada e exibida na tela.
 
+### Template Method
+
+O pattern template method consiste em montar o esqueleto de um algoritmo de uma forma abstrata para que as classes concretas realizem as devidas implementações. O Template Method utiliza uma classe abstrata base, que vai encapsular o template do algoritmo em um método, para que as classes concretas possam herdar desta classe e realizar a implementação de determinados passos deste algoritmo.
+
+No aplicativo WoCo, o o Template Method é utilizado junto a outro design pattern denominado Repository, cujo objetivo é prover um ponto de acesso único a camada de dados. Dessa forma, é implementado uma classe base abstrata com os métodos e o repository se encarrega de fazer a implementação concreta dos métodos. No exemplo abaixo referente ao módulo de autenticação, é possível verificar a utilização:
+
+* Classe Abstrata Base
+```Dart
+import 'package:WoCo/models/authentication.dart';
+
+abstract class Base {
+  Future<Authentication> signUp(String email, String password);
+  Future<Authentication> logIn(String email, String password);
+}
+```
+
+* Implementação concreta (Repository) 
+```Dart
+
+import 'package:WoCo/repository/authentication/base.dart';
+import 'package:WoCo/models/authentication.dart';
+import 'package:WoCo/services/authenticationApi.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+
+class AuthenticationRepository implements Base {
+  AuthenticationApi api = AuthenticationApi();
+
+  Future<Authentication> signUp(String email, String password) async {
+    var response = await http.post(
+      '${api.baseUrl}/api/register',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: jsonEncode({'email': email, 'password': password}),
+    );
+
+    if (response.statusCode == 200 || response.statusCode == 201) {
+      var data = json.decode(response.body);
+
+      return Authentication.fromJson(data);
+    } else {
+      throw Exception(
+          {'status': response.statusCode, 'message': 'Registro inválido'});
+    }
+  }
+
+  Future<Authentication> logIn(String email, String password) async {
+    var response = await http.post(
+      '${api.baseUrl}/api/login',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: jsonEncode({'email': email, 'password': password}),
+    );
+
+    if (response.statusCode == 200 || response.statusCode == 201) {
+      var data = json.decode(response.body);
+
+      return Authentication.fromJson(data);
+    } else {
+      throw Exception(
+          {'status': response.statusCode, 'message': 'Login inválido'});
+    }
+  }
+}
+```
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
-[2] Design Patterns - Observer Pattern. Disponível em: https://www.tutorialspoint.com/design_pattern/observer_pattern.htm
-[3] Simple app state management - ChangeNotifier. Disponível em: https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple
+[2] Patterns: Template Method. Disponível em: https://www.devmedia.com.br/patterns-template-method/18953
+[3] Repositoy Pattern - Projetar a camada de persistência da infraestrutura. Disponível em: https://docs.microsoft.com/pt-br/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design
 
 #### Histórico de revisões
 |   Data   |  Versão  |           Descrição          |       Autor(es)       |
 |:--------:|:--------:|:----------------------------:|:---------------------:|
 |22/10/2020|   0.1    |    Iniciando o documento     |   Weiller Fernandes   |
 |22/10/2020|   0.2    | Adicionando Padrão Observer  |   Weiller Fernandes   |
+|25/10/2020|   0.3    | Adicionando Template Method  |   Eugênio Sales   |
