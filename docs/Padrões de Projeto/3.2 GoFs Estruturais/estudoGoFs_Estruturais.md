@@ -160,6 +160,28 @@ def login_required(f):
     return decorated_function
 ```
 
+## Proxy
+
+Proxy é um padrão de design estrutural que permite fornecer um substituto ou espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você execute algo antes ou depois que a solicitação chega ao objeto original.
+
+```python
+from flask import Flask
+from requests import get
+
+app = Flask('__main__')
+SITE_NAME = 'https://Woco.com'
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def proxy(path):
+  return get(f'{SITE_NAME}{path}').content
+
+app.run(host='0.0.0.0', port=8080)
+
+```
+
+O padrão Proxy sugere que você crie uma nova classe de proxy com a mesma interface de um objeto de serviço original. Em seguida, você atualiza seu aplicativo para que ele passe o objeto proxy para todos os clientes do objeto original. Ao receber uma solicitação de um cliente, o proxy cria um objeto de serviço real e delega todo o trabalho para ele.
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
@@ -168,9 +190,12 @@ def login_required(f):
 
 [3] Documentação do Flask sobre decorators. Disponível em: https://flask.palletsprojects.com/en/1.1.x/patterns/viewdecorators/
 
+[4] Source Making - Design Patterns / Structural patterns: https://sourcemaking.com/design_patterns/proxy
+
 #### Histórico de revisões
 |   Data   |  Versão  |        Descrição       |          Autor(es)          |
 |:--------:|:--------:|:----------------------:|:---------------------------:|
 |10/10/2020|   0.1    | Iniciando o documento     | Bruno Duarte e Ernando Braga|
 |10/10/2020|   0.2    | Adicionando Composite  | Bruno Duarte|
 |12/10/2020|   0.3    | Refatorando o Composite, e adicionando Adapter e Decorator  | Bruno Duarte e Ernando Braga|
+|26/10/2020|   0.4    | Adicionado Proxy  | Davi Alves |
