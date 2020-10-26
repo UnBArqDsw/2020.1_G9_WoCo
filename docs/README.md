@@ -1,5 +1,7 @@
+
 <p align="center">
-    <img src="./assets/images/logo_woco_1.png" alt="Logo" height=300 width=400>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](./assets/images/logo_woco_1.png)
 </p>
 
 <h1 align="center">
