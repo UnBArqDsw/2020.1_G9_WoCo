@@ -1,6 +1,7 @@
 <p align="center">
-    <img src="./assets/images/logo_woco_1.png" alt="Logo" height=300 width=400>
+    <img src="assets/images/logo_woco_1.png" alt="Logo" height=300 width=350>
 </p>
+
 
 <h1 align="center">
     WoCo - Workout Controller

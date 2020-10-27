@@ -1,11 +1,10 @@
 <p align="center">
-    <img src="./docs/images/logo_woco_1.png" alt="Logo" height=300 width=400>
+    <img src="docs/assets/images/logo_woco_1.png" alt="Logo" height=300 width=350>
 </p>
 
+
 <h1 align="center">
-  <a href="">
     WoCo - Workout Controller
-  </a>
 </h1>
 
 **Número do Grupo**: 09<br>

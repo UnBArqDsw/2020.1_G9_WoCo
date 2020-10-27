@@ -7,10 +7,15 @@ A técnica do Backlog do Produto é uma lista na qual é reunida os requisitos e
 ### Metodologia
 
 Para o levantamento dos épicos e features, foram usados documentos anteriores, tais como introspecção, documento de visão e brainstorm.
+<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/blob/master/docs/Base/images/backlog.png">
 
 ![Start Version Backlog](./images/backlog.png)
+</a>
+
+<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/blob/master/docs/Base/images/backlogv1.png">
 
 ![Backlog 1.0](./images/backlogv1.png)
+</a>
 
 ### Histórico de revisões
 |Data|Versão|Alteração|Autor|
