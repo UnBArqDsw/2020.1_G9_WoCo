@@ -20,6 +20,6 @@
 
 * [GoFs Comportamentais estudados para o projeto](Padrões%20de%20Projeto/3.4%20GoFs%20Comportamentais/estudo_GoFsComportamentais.md)
 
-## 3.5 Emergentes
+## 3.4 Padrões Extras
 
 * [Padrões Emergentes](Padrões%20de%20Projeto/3.5%20Emergentes/emergentes.md)

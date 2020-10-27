@@ -26,3 +26,5 @@
 - [Identidade Visual](Base/1.4%20Iniciativas%20Extras/Identidadevisual.md)
 - [Introspecção](Base/1.4%20Iniciativas%20Extras/Introspeccao.md)
 - [Levantamento de Tecnologias e Ferramentas](Base/1.4%20Iniciativas%20Extras/levantamento-de-tecnologias.md)
+- [Product Backlog](Base/backlog.md)
+- [Roadmap do Produto](Base/projectRoadmap.md)
