@@ -23,17 +23,20 @@ ___
 | Refatorar Backlog | Ernando | Iniciativas extras | Concluída | 2 |
 | Atualizar GhPages | Todos | Iniciativas extras | Concluída | 1 |
 | Criação de Quadro do conhecimento | Davi | Iniciativas extras | Concluída | 1 |
+| Roadmap do Produto | Ernando | Iniciativas extras |  Concluída | 3 |
+| Ambientação do Backend | Davi | Backend |  Concluída | 2 |
+| Estudo GRASP | Weiller e Davi | Padrões de projeto |  Concluída | 5 |
 ___
 
 ## Extra
 |Issue|Responsável|Épico|Status|Pontos|
 |:---:|:---------:|:---:|:----:|:----:|
-| Criação de StotyBoard | Bruno | Iniciativas extras | Concluída | 1 |
+| Criação de StoryBoard | Bruno | Iniciativas extras | Concluída | 1 |
 
 ## Pontos
 | Planejados | Concluídos |      
 |:----------:|:----------:|
-| 46 | 19 |
+| 46 | 28 |
 
 
 ## Sprint Burndown
