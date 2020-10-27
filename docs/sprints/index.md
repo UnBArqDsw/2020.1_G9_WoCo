@@ -13,3 +13,8 @@
 
 - [Sprint 2 - Planning](sprints/planning/Sprint-2-planning.md)
 - [Sprint 2 - Review](sprints/review/Sprint-2-review.md)
+
+## Sprint 3
+
+- [Sprint 3 - Planning](sprints/planning/Sprint-3-planning.md)
+- [Sprint 3 - Review](sprints/review/Sprint-3-review.md)
