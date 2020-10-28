@@ -51,4 +51,4 @@ Produzir estórias do épico de treino e acesso no backend e frontend. Além dis
 
 |Date|Version|Update|Author|
 |:--:|:----:|:-------:|:---:|
-|13/10/2020|0.1|Sprint Planning 2|Eugênio Sales|
+|13/10/2020|0.1|Sprint Planning 3|Eugênio Sales|
