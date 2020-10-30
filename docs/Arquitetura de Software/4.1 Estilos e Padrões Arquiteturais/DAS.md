@@ -4,6 +4,7 @@
 |    Data    | Versão |       Descrição       |    Autor(es)     |
 | :--------: | :----: | :-------------------: | :--------------: |
 | 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
+| 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
 
 ## Sumário
   - [1. Introdução](#1-introducao)
@@ -37,6 +38,47 @@
 ### 1.5 Visão Geral
 
 ## 2. Representação Arquitetural
+
+Este tópico descreve a arquitetura de software da aplicação e como ela é representada, através das tecnologias escolhidas para cada uma das três partes principais do app, são elas: O Back-end, Front-end e o Banco de Dados.
+
+## 2.1. Front-end
+
+Essa é parte visual da aplicação. É responsável pela comunicação com o Back-end e é através dela que o usuário é capaz de interagir com o aplicativo em si. Para o desenvolvimento do WoCo, a equipe optou por desenvolver uma aplicação mobile, pois esse tipo de aplicação se adequa melhor ao escopo do projeto.
+
+### 2.1.1 Tecnologias
+
+[![Flutter](../img/flutter.png)](../img/flutter.png)
+
+A definição do Flutter em seu site oficial é: "Flutter é um kit de ferramentas do Google para construir aplicações lindas, nativamente compiladas para mobile, web, desktop à partir de um único código-base."
+
+O Flutter é um framework construído pela Google para facilitar o desenvolvimento mobile multiplataforma (Android/iOS) que tem o Dart como principal linguagem de desenvolvimento. Ele utiliza uma abordagem até então única para lidar com os componentes nativos de cada plataforma, em que cada um deles é implementado pelo próprio framework e apresentado ao usuário por um motor de renderização próprio.
+
+O Flutter foi escolhido por ser uma tecnologia familiar para parte da equipe de desenvolvimento do projeto e por permitir um aprendizado relativamente rápido para aqueles que ainda não dominavam o framework. Outro aspecto levado em consideração nessa tomada de decisão é que o Flutter é mais rápido que o React Native, seu concorrente direto, a partir do momento em que ele não exige que o Javascript faça uma ponte para interagir com os componentes nativos do sistema.
+
+## 2.2. Back-end
+
+Essa é a camada de integração entre o Front-end e o Banco de Dados. Sua função é armazenar e disponibilizar os dados da aplicação para a visualização por parte do usuário.
+
+### 2.2.1 Tecnologias
+
+[![Flask](../img/flask.png)](../img/flask.png)
+
+O Flask é um micro-framework web escrito em Python e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2. Ele tem a flexibilidade da linguagem de programação Python e provê um modelo simples para desenvolvimento web.
+Ele é chamado de micro-framework porque mantém um núcleo simples mas extensível. Não há uma camada de abstração do banco de dados, validação de formulários, ou qualquer outro componente onde bibliotecas de terceiros existem para prover a funcionalidade, porém o Flask suporta extensões capazes de adicionar tais funcionalidades na aplicação final. Há uma vasta coleção de bibliotecas para resolver essas questões em Python, isso simplifica o framework e torna sua curva de aprendizado mais suave.
+
+Esses fatores inclusive, foram determinantes para a escolha do Flask, sua simplicidade e curva de aprendizado suave tornam o seu uso no projeto WoCo algo bastante tranquilo e satisfatório.
+
+## 2.3. Banco de Dados
+
+Essa é a camada de persistência de informações. É ela que fornece para o back-end as informações e dados que serão exibidos na tela do usuário através do front-end.
+
+### 2.3.1 Tecnologias
+
+[![SQLite](../img/sqlite.png)](../img/sqlite.png)
+
+SQLite é uma biblioteca de código aberto (open source) desenvolvido na linguagem C que permite a disponibilização de um pequeno banco de dados na própria aplicação, sem a necessidade de acesso a um SGDB separado. A estrutura de banco junto com a aplicação é denominada de “banco de dados embutido” e é indicada para aplicações de pequeno porte, que utilizam poucos dados.
+
+O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto de pequena escala. Dessa forma, o SQLite satisfaz todas as necessidades do projeto.
 
 ## 3. Restrições e Metas Arquiteturais
 
