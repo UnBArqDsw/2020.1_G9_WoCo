@@ -26,17 +26,22 @@
 ## 1. Introdução
 
 ### 1.1 Objetivo
+Este documento visa esclarecer, especificar e documentar as decisões de arquitetura na produção e implementação do projeto WoCo - Workout Controller relatando também os aspectos da aplicação e comunicação de serviços operantes.
+
 
 ### 1.2 Escopo
+O WoCo é uma aplicação voltada para o monitoramento e acompanhamento de treino físico dos usuários. Aplicação desenvolvida na disciplina Arquitetura e Desenho de Software, na Universidade de Brasília Campus Gama (UnB).
 
 ### 1.3 Definições, Acrônimos e Abreviações
+* **DAS**: Desenho e Arquitetura de Software
+* **UnB**: Universidade de Brasília
 
 ### 1.4 Referências
 
 - [DAS Template](http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm)
 
 ### 1.5 Visão Geral
-
+A aplicação será realizada utilizando comunicação entre cada componente, onde cada evento irá realizar uma requisição de acesso/escrita no banco através do backend e o feedback será entregue ao usuário em sua tela de aplicação. 
 ## 2. Representação Arquitetural
 
 Este tópico descreve a arquitetura de software da aplicação e como ela é representada, através das tecnologias escolhidas para cada uma das três partes principais do app, são elas: O Back-end, Front-end e o Banco de Dados.
