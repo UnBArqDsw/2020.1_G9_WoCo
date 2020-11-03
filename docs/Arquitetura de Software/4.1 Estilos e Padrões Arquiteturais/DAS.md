@@ -20,8 +20,9 @@
   - [6. Visão de Processo](#6-visao-de-processo)
   - [7. Visão de Implementação](#7-visao-de-implementacao)
   - [8. Visão de Implantação](#8-visao-de-implantacao)
-  - [9. Tamanho e Performance](#9-tamanho-e-performance)
-  - [10. Qualidade](#10-qualidade)
+  - [9. Visão de Deploy](#8-visao-de-implantacao)
+  - [10. Tamanho e Performance](#9-tamanho-e-performance)
+  - [11. Qualidade](#10-qualidade)
 
 ## 1. Introdução
 
@@ -35,6 +36,7 @@ O WoCo é uma aplicação voltada para o monitoramento e acompanhamento de trein
 ### 1.3 Definições, Acrônimos e Abreviações
 * **DAS**: Desenho e Arquitetura de Software
 * **UnB**: Universidade de Brasília
+* **PaaS**: Plataform as a Service
 
 ### 1.4 Referências
 
@@ -95,7 +97,19 @@ O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto
 
 ## 7. Visão de Implementação
 
-## 8. Visão de Implantação
+## 8. Visão de Deploy
+
+### 8.1 Heroku
+Heroku é um dos primeiros provedores de PaaS, caracterizado por suportar muitas outras linguagens de programação populares, por exemplo, Java, Node.js, Scala, Python, PHP e Go. Nosso deploy visa utilizar a plataforma como ponto de acesso aos serviços e requisições da aplicação.
+### 8.2 Flask
+Flask é um pequeno framework web escrito em Python e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2, possui a flexibilidade da linguagem de programação Python e provê um modelo simples para desenvolvimento web. Uma vez importando no Python, Flask pode ser usado para economizar tempo construindo aplicações web.
+### 8.3 Exemplificando
+Utilizando as tecnologias citadas iremos através da criação de API, efetuar comunicações web utilizando o Heroku com o backend baseado na tecnologia do framework flask em python. A imagem abaixo tenta ilustrar essas idealizaçoes:
+
+![Image](./../img/deploy.png)
+
+
+### 8.2  
 
 ## 9. Tamanho e Performance
 
