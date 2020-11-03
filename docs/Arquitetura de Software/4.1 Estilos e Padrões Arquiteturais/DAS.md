@@ -5,6 +5,7 @@
 | :--------: | :----: | :-------------------: | :--------------: |
 | 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
 | 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
+| 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
 
 ## Sumário
   - [1. Introdução](#1-introducao)
@@ -83,6 +84,45 @@ O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto
 ## 3. Restrições e Metas Arquiteturais
 
 ## 4. Visão de Casos de Uso
+
+### 4.1 Atores
+
+|    Atores    |       Descrição       |
+| :--------:   |:-------------------:  |
+| Treinador   |  Usuário responsável por criar e adicionar os treinos e exercícios que serão usados pelos Usuários Atletas da plataforma.   |
+| Atleta      | Usuário que deseja usar a plataforma para monitorar e controlar seus treinos do dia a dia.|
+| WoCo        | Responsável por autenticar os usuários e apresentar treinos e exercícios cadastrados na plataforma. |
+
+### 4.2 Diagrama de Casos de uso
+
+**Versão 1.0**
+
+[![Diagrama de Casos de Uso](../img/use_case_v1.png)](../img/use_case_v1.png)
+
+### 4.3 Descrição dos casos de Uso
+
+| Caso de Uso | Descrição |
+| :-------:   | :-------: |
+| UC01 - Realizar cadastro/login no app   | O usuário se cadastra na aplicação ou realiza o login se já possuir cadastro. |
+| UC02 - Deslogar do app| O usuário logado "desloga" da aplicação.|
+| UC03 - Criar/editar exercício| O treinador cria um exercício novo ou edita um existente. |
+| UC04 - Adicionar nome | O treinador adiciona um nome ao exercício que está sendo criado/editado.|
+| UC05 - Selecionar grupo muscular| O treinador seleciona um grupo muscular para o exercício que está sendo criado/editado.|
+| UC06 - Adicionar imagem de execução correta| O treinador adiciona uma imagem ao exercício que está sendo criado/editado, demonstrando como é a forma correta de realizar esse exercício.|
+| UC07 - Salvar exercício| O treinador salva o exercício que criou/editou.|
+| UC08 - Excluir exercício| O treinador exclui um exercício que havia criado.|
+| UC09 - Criar/editar treino | O treinador cria um treino novo ou edita um existente.|
+| UC10 - Adicionar título|O treinador adiciona um título ao treino que está sendo criado/editado.|
+| UC11 - Adicionar descrição| O treinador adiciona uma descrição ao treino que está sendo criado/editado.|
+| UC12 - Adicionar/excluir exercícios| O treinador adiciona ou exclui exercícios do treino que está sendo criado/editado.|
+| UC13 - Salvar treino| O treinador salva o treino que criou/editou.|
+| UC14 - Excluir treino | O treinador exclui um treino que havia criado.|
+| UC15 - Listar exercícios| O atleta lista todos os exercícios cadastrados na aplicação.|
+| UC16 - Filtrar exercícios por grupo muscular| O atleta filtra os exercícios da aplicação para visualizar apenas os que pertencem a um ou mais grupos musculares.|
+| UC17 - Listar treinos| O atleta lista todos os treinos cadastrados na aplicação.|
+| UC18 - Ver treinos sugeridos| O atleta visualiza os treinos sugeridos para o seu perfil (iniciante, intermediário ou avançado).|
+| UC19 - Iniciar treino | O atleta escolhe um treino listado para poder iniciar.|
+| UC20 - Interromper treino| O atleta interrompe um treino que havia iniciado.|
 
 ## 5. Visão Lógica
 
