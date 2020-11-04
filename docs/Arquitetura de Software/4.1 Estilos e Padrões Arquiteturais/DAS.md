@@ -8,6 +8,7 @@
 | 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
 | 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
 | 03/11/2020 | 0.3 | Adicionando Visão lógica | Eugênio Sales |
+| 03/11/2020 | 0.4 | Adicionando Visão de Implementação | Davi Alves |
 
 ## Sumário
   - [1. Introdução](#1-introducao)
@@ -163,6 +164,14 @@ A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo 
 ![Diagrama de Sequencia](../img/diagrama_sequenciav2.png)
 
 ## 7. Visão de Implementação
+
+Uma visualização arquitetural chamada visão de implementação ilustra a distribuição do processamento em um conjunto de nós do sistema, incluindo a distribuição física dos processos e encadeamentos. Ela mostra como o sistema proposto será implementado, ou seja, uma das suas principais características é a visão geral do Diagrama de Classes do projeto. A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação.
+
+A visão da implementação é uma das cinco visões de arquitetura de um sistema. As outras visões de arquitetura são a visão lógica, a visão de caso de uso, a visão de processos e a visão de implementação.
+
+### 7.1 Diagrama de Classes
+
+![Diagrama de Classes](../img/umlClass3.png)
 
 ## 8. Visão de Deploy
 
