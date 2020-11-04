@@ -6,6 +6,7 @@
 | 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
 | 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
 | 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
+| 03/11/2020 | 0.5 | Adicionando Metas e restrições arquiteturais | Eugênio Sales |
 
 ## Sumário
   - [1. Introdução](#1-introducao)
@@ -89,6 +90,22 @@ SQLite é uma biblioteca de código aberto (open source) desenvolvido na linguag
 O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto de pequena escala. Dessa forma, o SQLite satisfaz todas as necessidades do projeto.
 
 ## 3. Restrições e Metas Arquiteturais
+
+### 3.1 Metas Arquiteturais
+| Metas |  |    
+|:-------:|:--------:|
+| Usabilidade | O aplicativo deve ser interativo e deve ser responsivo |
+| Portabilidade | O aplicativo deve ser multiplataforma (Android e IOS) |
+| Segurança | A aplicação deve prover confidencialidade e privacidade dos dados sensíveis dos usuários |
+
+### 3.2 Restrições Arquiteturais
+| Restrições |  |    
+|:-------:|:--------:|
+| Acesso | O aplicativo deve possuir acesso a internet para acesso dos recursos |
+| Acesso | O aplicativo não possuirá acesso a dados offline com banco de dados local |
+| Plataforma | O aplicativo não possuirá portabilidade para outras plataformas além de Android e IOS |
+| Linguagem | A aplicação possuíra, apenas, a língua portuguesa como opção |
+
 
 ## 4. Visão de Casos de Uso
 
