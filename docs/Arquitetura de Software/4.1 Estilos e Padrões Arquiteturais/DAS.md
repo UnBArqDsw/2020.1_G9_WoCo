@@ -127,6 +127,11 @@ O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto
 ## 5. Visão Lógica
 
 ## 6. Visão de Processo
+A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo como base uma visualização em sequência.
+
+### Diagrama de Sequência
+
+![Diagrama de Sequencia](../img/diagrama_de_sequenciav1.png)
 
 ## 7. Visão de Implementação
 
