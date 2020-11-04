@@ -21,23 +21,30 @@
   - [6. Visão de Processo](#6-visao-de-processo)
   - [7. Visão de Implementação](#7-visao-de-implementacao)
   - [8. Visão de Implantação](#8-visao-de-implantacao)
-  - [9. Tamanho e Performance](#9-tamanho-e-performance)
-  - [10. Qualidade](#10-qualidade)
+  - [9. Visão de Deploy](#8-visao-de-implantacao)
+  - [10. Tamanho e Performance](#9-tamanho-e-performance)
+  - [11. Qualidade](#10-qualidade)
 
 ## 1. Introdução
 
 ### 1.1 Objetivo
+Este documento visa esclarecer, especificar e documentar as decisões de arquitetura na produção e implementação do projeto WoCo - Workout Controller relatando também os aspectos da aplicação e comunicação de serviços operantes.
+
 
 ### 1.2 Escopo
+O WoCo é uma aplicação voltada para o monitoramento e acompanhamento de treino físico dos usuários. Aplicação desenvolvida na disciplina Arquitetura e Desenho de Software, na Universidade de Brasília Campus Gama (UnB).
 
 ### 1.3 Definições, Acrônimos e Abreviações
+* **DAS**: Desenho e Arquitetura de Software
+* **UnB**: Universidade de Brasília
+* **PaaS**: Plataform as a Service
 
 ### 1.4 Referências
 
 - [DAS Template](http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm)
 
 ### 1.5 Visão Geral
-
+A aplicação será realizada utilizando comunicação entre cada componente, onde cada evento irá realizar uma requisição de acesso/escrita no banco através do backend e o feedback será entregue ao usuário em sua tela de aplicação. 
 ## 2. Representação Arquitetural
 
 Este tópico descreve a arquitetura de software da aplicação e como ela é representada, através das tecnologias escolhidas para cada uma das três partes principais do app, são elas: O Back-end, Front-end e o Banco de Dados.
@@ -135,7 +142,19 @@ A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo 
 
 ## 7. Visão de Implementação
 
-## 8. Visão de Implantação
+## 8. Visão de Deploy
+
+### 8.1 Heroku
+Heroku é um dos primeiros provedores de PaaS, caracterizado por suportar muitas outras linguagens de programação populares, por exemplo, Java, Node.js, Scala, Python, PHP e Go. Nosso deploy visa utilizar a plataforma como ponto de acesso aos serviços e requisições da aplicação.
+### 8.2 Flask
+Flask é um pequeno framework web escrito em Python e baseado na biblioteca WSGI Werkzeug e na biblioteca de Jinja2, possui a flexibilidade da linguagem de programação Python e provê um modelo simples para desenvolvimento web. Uma vez importando no Python, Flask pode ser usado para economizar tempo construindo aplicações web.
+### 8.3 Exemplificando
+Utilizando as tecnologias citadas iremos através da criação de API, efetuar comunicações web utilizando o Heroku com o backend baseado na tecnologia do framework flask em python. A imagem abaixo tenta ilustrar essas idealizaçoes:
+
+![Image](./../img/deploy.png)
+
+
+### 8.2  
 
 ## 9. Tamanho e Performance
 
