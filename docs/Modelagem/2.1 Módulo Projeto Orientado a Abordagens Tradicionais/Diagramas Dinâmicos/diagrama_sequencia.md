@@ -11,6 +11,8 @@ Os seguintes nós e arestas são normalmente desenhados em um diagrama de sequê
 
 ![Diagrama de Sequencia](../../images/diagrama_sequencia.png)
 
+![Diagrama de Sequencia V2](../../images/diagrama_sequenciav2.png)
+
 ### Referências
 
 [1] Lucid Chart - O que é um diagrama de sequência UML?. Disponível em <https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-sequencia-uml> e acessado em 27/09/2020
@@ -22,3 +24,4 @@ Os seguintes nós e arestas são normalmente desenhados em um diagrama de sequê
 | :--------: | :----: | :-------------------: | :--------------: |
 | 27/09/2020 |  0.0   | Iniciando o documento | Bruno Duarte|
 | 27/09/2020 |  0.1   | Adicionando o Diagrama | Bruno Duarte|
+| 27/09/2020 |  1.0   | Adicionando segunda versão do diagrama| Ernando Braga |
