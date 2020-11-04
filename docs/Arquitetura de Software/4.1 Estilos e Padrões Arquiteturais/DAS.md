@@ -138,7 +138,7 @@ A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo 
 
 ### Diagrama de Sequência
 
-![Diagrama de Sequencia](../img/diagrama_de_sequenciav1.png)
+![Diagrama de Sequencia](../img/diagrama_sequenciav2.png)
 
 ## 7. Visão de Implementação
 
