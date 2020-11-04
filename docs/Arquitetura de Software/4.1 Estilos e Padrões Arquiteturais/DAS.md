@@ -1,12 +1,13 @@
 # Documento de Arquitetura de Software
 
+
 #### Histórico de revisões
 |    Data    | Versão |       Descrição       |    Autor(es)     |
 | :--------: | :----: | :-------------------: | :--------------: |
 | 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
 | 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
 | 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
-| 03/11/2020 | 0.5 | Adicionando Metas e restrições arquiteturais | Eugênio Sales |
+| 03/11/2020 | 0.3 | Adicionando Visão lógica | Eugênio Sales |
 
 ## Sumário
   - [1. Introdução](#1-introducao)
@@ -149,6 +150,10 @@ O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto
 | UC20 - Interromper treino| O atleta interrompe um treino que havia iniciado.|
 
 ## 5. Visão Lógica
+A visão lógica é uma organização conceitual de um software em termos de camadas, subsistemas, pacotes, frameworks, classes, interfaces e realizaçõesde caso de uso. Dentre possíveis representações, segue:
+
+### 5.1 Diagrama de pacotes
+![Diagrama de Pacote](../img/package-diagram-v2.png)
 
 ## 6. Visão de Processo
 A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo como base uma visualização em sequência.
