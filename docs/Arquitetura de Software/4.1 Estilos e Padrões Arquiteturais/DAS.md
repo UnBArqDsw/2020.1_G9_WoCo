@@ -1,6 +1,14 @@
 # Documento de Arquitetura de Software
 
 
+#### Histórico de revisões
+|    Data    | Versão |       Descrição       |    Autor(es)     |
+| :--------: | :----: | :-------------------: | :--------------: |
+| 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
+| 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
+| 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
+| 03/11/2020 | 0.3 | Adicionando Visão lógica | Eugênio Sales |
+
 ## Sumário
   - [1. Introdução](#1-introducao)
     - [1.1 Objetivo](#11-objetivo)
@@ -84,6 +92,22 @@ O SQLite foi escolhido pelo fato do WoCo ser uma aplicação simples, um projeto
 
 ## 3. Restrições e Metas Arquiteturais
 
+### 3.1 Metas Arquiteturais
+| Metas |  |    
+|:-------:|:--------:|
+| Usabilidade | O aplicativo deve ser interativo e deve ser responsivo |
+| Portabilidade | O aplicativo deve ser multiplataforma (Android e IOS) |
+| Segurança | A aplicação deve prover confidencialidade e privacidade dos dados sensíveis dos usuários |
+
+### 3.2 Restrições Arquiteturais
+| Restrições |  |    
+|:-------:|:--------:|
+| Acesso | O aplicativo deve possuir acesso a internet para acesso dos recursos |
+| Acesso | O aplicativo não possuirá acesso a dados offline com banco de dados local |
+| Plataforma | O aplicativo não possuirá portabilidade para outras plataformas além de Android e IOS |
+| Linguagem | A aplicação possuíra, apenas, a língua portuguesa como opção |
+
+
 ## 4. Visão de Casos de Uso
 
 ### 4.1 Atores
@@ -136,7 +160,7 @@ A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo 
 
 ### Diagrama de Sequência
 
-![Diagrama de Sequencia](../img/diagrama_de_sequenciav1.png)
+![Diagrama de Sequencia](../img/diagrama_sequenciav2.png)
 
 ## 7. Visão de Implementação
 
@@ -158,11 +182,8 @@ Utilizando as tecnologias citadas iremos através da criação de API, efetuar c
 
 ## 10. Qualidade
 
+## 10.1 NFR
 
-#### Histórico de revisões
-|    Data    | Versão |       Descrição       |    Autor(es)     |
-| :--------: | :----: | :-------------------: | :--------------: |
-| 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
-| 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
-| 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
-| 03/11/2020 | 0.3 | Adicionando Visão lógica | Eugênio Sales |
+O <i>NFR</i> rastreia os requisitos não funcionais, e mostra o impacto que um <i>hardgoal</i> causa em um <i>softgoal</i>. Sempre deixando claro a rastreabilidade e o propósito de um requisito. Tendo como padrão a <i>ISO 9241</i> e as <i>Heurísticas de Nielsen</i>
+
+![NFR](../img/NFR.png)
