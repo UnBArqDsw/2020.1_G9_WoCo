@@ -7,7 +7,8 @@
 | 29/10/2020 | 0.1 | Iniciando o documento e adicionando o Sumário | Weiller Fernandes |
 | 29/10/2020 | 0.2 | Adicionando Representação Arquitetural | Weiller Fernandes |
 | 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
-| 03/11/2020 | 0.3 | Adicionando Visão lógica | Eugênio Sales |
+| 03/11/2020 | 0.4 | Adicionando Visão lógica | Eugênio Sales |
+| 03/11/2020 | 0.5 | Adicionando Visão de Implementação | Davi Alves |
 
 ## Sumário
   - [1. Introdução](#1-introducao)
@@ -22,10 +23,9 @@
   - [5. Visão Lógica](#5-visao-logica)
   - [6. Visão de Processo](#6-visao-de-processo)
   - [7. Visão de Implementação](#7-visao-de-implementacao)
-  - [8. Visão de Implantação](#8-visao-de-implantacao)
-  - [9. Visão de Deploy](#8-visao-de-implantacao)
-  - [10. Tamanho e Performance](#9-tamanho-e-performance)
-  - [11. Qualidade](#10-qualidade)
+  - [8. Visão de Deploy](#8-visao-de-deploy)
+  - [9. Tamanho e Performance](#9-tamanho-e-performance)
+  - [10. Qualidade](#10-qualidade)
 
 ## 1. Introdução
 
@@ -46,7 +46,7 @@ O WoCo é uma aplicação voltada para o monitoramento e acompanhamento de trein
 - [DAS Template](http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm)
 
 ### 1.5 Visão Geral
-A aplicação será realizada utilizando comunicação entre cada componente, onde cada evento irá realizar uma requisição de acesso/escrita no banco através do backend e o feedback será entregue ao usuário em sua tela de aplicação. 
+A aplicação será realizada utilizando comunicação entre cada componente, onde cada evento irá realizar uma requisição de acesso/escrita no banco através do backend e o feedback será entregue ao usuário em sua tela de aplicação.
 ## 2. Representação Arquitetural
 
 Este tópico descreve a arquitetura de software da aplicação e como ela é representada, através das tecnologias escolhidas para cada uma das três partes principais do app, são elas: O Back-end, Front-end e o Banco de Dados.
@@ -164,6 +164,14 @@ A <i>Visão de Processos</i> mostra como será feito o modelo de projeto, tendo 
 
 ## 7. Visão de Implementação
 
+Uma visualização arquitetural chamada visão de implementação ilustra a distribuição do processamento em um conjunto de nós do sistema, incluindo a distribuição física dos processos e encadeamentos. Ela mostra como o sistema proposto será implementado, ou seja, uma das suas principais características é a visão geral do Diagrama de Classes do projeto. A finalidade da visão de implementação é captar as decisões de arquitetura tomadas para a implementação.
+
+A visão da implementação é uma das cinco visões de arquitetura de um sistema. As outras visões de arquitetura são a visão lógica, a visão de caso de uso, a visão de processos e a visão de implementação.
+
+### 7.1 Diagrama de Classes
+
+![Diagrama de Classes](../img/umlClass3.png)
+
 ## 8. Visão de Deploy
 
 ### 8.1 Heroku
@@ -174,9 +182,6 @@ Flask é um pequeno framework web escrito em Python e baseado na biblioteca WSGI
 Utilizando as tecnologias citadas iremos através da criação de API, efetuar comunicações web utilizando o Heroku com o backend baseado na tecnologia do framework flask em python. A imagem abaixo tenta ilustrar essas idealizaçoes:
 
 ![Image](./../img/deploy.png)
-
-
-### 8.2  
 
 ## 9. Tamanho e Performance
 

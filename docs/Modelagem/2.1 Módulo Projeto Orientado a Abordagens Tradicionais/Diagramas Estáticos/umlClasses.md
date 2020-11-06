@@ -21,12 +21,21 @@
 ![UML Classes 2.0](../../images/umlClass2.png)
 </a>
 
+### Versão 3.0
+<a href="https://github.com/UnBArqDsw/2020.1_G9_WoCo/blob/feat/UML-class-diagram/docs/Modelagem/images/umlClass3.png">
+
+
+![UML Classes 3.0](../../images/umlClass3.png)
+</a>
+
+
 ### Histórico de revisões
 |Data|Versão|Alteração|Autor|
 |----|------|---------|-----|
 | 22/09/2020 | 0.1 | Criação do diagrama de classes UML | Ernando Braga |
 | 27/09/2020 | 1.0 | Adição de relacionamento de classes UML | Ernando Braga e Eugênio Sales |
 | 28/09/2020 | 2.0 | Adição de Classes Concretas, Abstratas, Sobrescrita e Sobrecarga, e Dependência e Associação | Ernando Braga e Eugênio Sales |
+| 03/11/2020 | 2.1 | Atualização do diagrama de classes UML | Davi Alves |
 
 
 ### Referências
