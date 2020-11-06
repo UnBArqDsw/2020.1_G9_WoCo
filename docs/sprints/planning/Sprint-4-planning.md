@@ -40,7 +40,7 @@ Documentação de estilos e arquitetura do WoCo, evolução de artefatos de mode
 ## Pontos
 | Planejados | Débito | Total | 
 |:----------:|:------:|:-----:|
-| 65 | 17 | 82 |
+| 67 | 17 | 84 |
 
 
 ## Presença na sprint planning 1 (29/09/2020)
