@@ -12,8 +12,8 @@ Conclusão de débitos de implementação de código e implementação de novas 
 
 |Issue|Responsável|Épico|Pontos|
 |:---:|:---------:|:---:|:----:|
-| US02 à US05 - Exercícios - Frontend | Weiller | Desenvolvimento - Treinador | 8 |
-| US011 à US14 - Alimentação - Frontend | Eugênio | Desenvolvimento - Treinador | 8 |
+| US02 à US05 - Exercícios - Frontend | Eugênio | Desenvolvimento - Treinador | 8 |
+| US011 à US14 - Alimentação - Frontend | Weiller | Desenvolvimento - Treinador | 8 |
 | US011 à US14 - Alimentação - Backend | Ernando, Davi e Bruno | Desenvolvimento - Treinador | 8 |
 
 
