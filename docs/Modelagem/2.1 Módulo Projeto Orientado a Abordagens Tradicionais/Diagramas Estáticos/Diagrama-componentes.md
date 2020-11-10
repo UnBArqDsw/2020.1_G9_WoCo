@@ -21,9 +21,13 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 
 ![Diagrama de Componentes Completo v1](../../images/component-diagram-full-v1.png)
 
-*Versão 1.0 - Diagrama de Componentes Completo* 
+*Versão 1.0 - Diagrama de Componentes Completo*
 
-> O segundo diagrama foca no sub sistema que possui as funcionalidades principais do WoCo, foi separada da primeira para melhor organização e para não cruzar os relacionamentos. 
+![Diagrama de Componentes Completo v2](../../images/component-diagram-full-v2.png)
+
+*Versão 2.0 - Diagrama de Componentes Completo*
+
+> O segundo diagrama foca no sub sistema que possui as funcionalidades principais do WoCo, foi separada da primeira para melhor organização e para não cruzar os relacionamentos.
 
 
 ![Diagrama de Componentes Registros v1](../../images/component-diagram-v1.png)
@@ -52,3 +56,4 @@ Devido a sua complexidade nosso diagrama de componentes estará em constante mud
 | :--------: | :----: | :-------------------: | :--------------: |
 | 25/09/2020 |  1.0   | Iniciando o documento | Davi Alves |
 | 28/09/2020 |  2.0   | Atualizando o documento | Davi Alves |
+| 09/11/2020 |  3.0   | Adicionando v3 do diagrama | Weiller Fernandes |
