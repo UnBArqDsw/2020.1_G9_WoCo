@@ -19,7 +19,7 @@ O Flask também permite uma maneira de organizar uma aplicação em Flask em ped
 
 ![Blueprint](./../img/blueprint.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/Woco/app/routes/exercise.py)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/blob/master/Woco/app/routes/exercise.py)
 
 
 ### Frozen Spots no WoCo
@@ -29,7 +29,7 @@ O Flask também permite uma maneira de organizar uma aplicação em Flask em ped
 
 ![Login](./../img/statusApi.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/Woco/app/routes/token.py)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/blob/master/Woco/app/routes/token.py)
 
 ### Adapter no WoCo
 Converte a interface de uma classe em outra interface para atender alguma funcionalidade necessária. O adapter permite que as classes trabalhem juntas em prol de um objetivo na aplicação.
@@ -38,20 +38,20 @@ No WoCo teremos uma model central referente as infomações dos exercícios cada
 
 ![Exercise](./../img/exercise.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/Woco/app/models/execise.py)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/blob/master/Woco/app/models/execise.py)
 
 A parte do Adapter se encaixa na realização do parse dessas informações através de uma outra classe denominada ExerciseSerializer.
 
 ![Exercise Parse](./../img/exercise_serializer.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/Woco/app/serialisers/exerciseSerialiser.py)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/blob/master/Woco/app/serialisers/exerciseSerialiser.py)
 
 ### Singleton no WoCo
 Singleton para prover um recurso único de conexão com a base de dados, permitindo uma maior segurança para toda aplicação.
 
 ![Singleton SQLAlchemy](../img/singletonDb.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/Woco/app/db/database.py)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend/blob/master/Woco/app/db/database.py)
 
 ## Flutter
 Criado pelo Google, o Flutter é um framework, ou seja, um facilitador no desenvolvimento, que possibilita criar aplicativos mobile para Android e iOS com algumas funcionalidades vantajosas para o dia a dia de um desenvolvedor.
@@ -67,7 +67,7 @@ Os pontos flexíveis deste framework possibilitam finitas combinações e altera
 
 ![Widgets](./../img/widget.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/lib/screens/todo.dart)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/screens/todo.dart)
 
 
 ### Frozen Spot no Flutter
@@ -90,19 +90,19 @@ O ***bloc*** seria um componente central que ficaria responsável de receber ***
 
 ![Tree](./../img/todo_bloc.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/lib/blocs/todoBloc/todo_bloc.dart)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/blocs/todoBloc/todo_bloc.dart)
 
 ![Tree](./../img/todo_state.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/lib/blocs/todoBloc/todo_state.dart)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/blocs/todoBloc/todo_state.dart)
 
 ![Tree](./../img/todo_event.png)
 
-[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/lib/blocs/todoBloc/todo_event.dart)
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/blocs/todoBloc/todo_event.dart)
 
 
 ## Reutilização do Protótipo
-A reutilização de software não envolve somente fatores de desenvolvimento, como a utilização de códigos, ferramentas e frameworks mas também no nível de requisitos e outros artefatos. 
+A reutilização de software não envolve somente fatores de desenvolvimento, como a utilização de códigos, ferramentas e frameworks mas também no nível de requisitos e outros artefatos.
 
 ![barra lateral](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home_lateral.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![barra lateral](./../img/home_lateral.jpg)
