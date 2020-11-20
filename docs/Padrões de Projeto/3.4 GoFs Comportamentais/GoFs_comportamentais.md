@@ -50,6 +50,9 @@ class WorkoutProvider with ChangeNotifier {
   }
 }
 ```
+
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/provider/workout_provider.dart)
+
 O notifyListeners() é um método específico do ChangeNotifier e deve ser chamado sempre que houverem mudanças que possam alterar a IU do aplicativo. No WoCo, ele é chamado sempre quando um treino é adicionado, editado ou removido da lista de treinos do usuário, dessa forma a mudança é processada e exibida na tela.
 
 ### Template Method
@@ -68,7 +71,7 @@ abstract class Base {
 }
 ```
 
-* Implementação concreta (Repository) 
+* Implementação concreta (Repository)
 ```Dart
 
 import 'package:WoCo/repository/authentication/base.dart';
@@ -120,6 +123,8 @@ class AuthenticationRepository implements Base {
 }
 ```
 
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/repository/authentication/authenticationRepository.dart)
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
@@ -132,3 +137,4 @@ class AuthenticationRepository implements Base {
 |22/10/2020|   0.1    |    Iniciando o documento     |   Weiller Fernandes   |
 |22/10/2020|   0.2    | Adicionando Padrão Observer  |   Weiller Fernandes   |
 |25/10/2020|   0.3    | Adicionando Template Method  |   Eugênio Sales   |
+|20/11/2020| 0.4 | Adicionando links para o código | Weiller Fernandes |

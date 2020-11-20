@@ -35,6 +35,8 @@ class WorkoutList extends StatelessWidget {
 }
 ```
 
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/screens/workout_list.dart)
+
 ## Referências
 
 [1] Videoaulas e materiais complementares presentes no moodle da disciplina Arquitetura e Desenho de Software. Disponível em: https://aprender3.unb.br/course/view.php?id=158
@@ -44,3 +46,4 @@ class WorkoutList extends StatelessWidget {
 |:--------:|:--------:|:----------------------------:|:---------------------:|
 |24/10/2020|   0.1    |    Iniciando o documento     |   Weiller Fernandes   |
 |24/10/2020|   0.2    |Adicionando Padrão Alta Coesão|   Weiller Fernandes   |
+|20/11/2020| 0.3 | Adicionando link para o código | Weiller Fernandes|
