@@ -38,10 +38,34 @@ A parte do Adapter se encaixa na realização do parse dessas informações atra
 
 
 
+## Flutter
+Criado pelo Google, o Flutter é um framework, ou seja, um facilitador no desenvolvimento, que possibilita criar aplicativos mobile para Android e iOS com algumas funcionalidades vantajosas para o dia a dia de um desenvolvedor.
+
+### Hot Spot no Flutter
+Os pontos flexíveis deste framework possibilitam finitas combinações e alterações a cargo do desenvolvedor. O WoCo visa aproveitar desses recursos na construção de Widgets, containers, appbars, buttons e outra gama de possibilidades oferecidas nesse framework. Podemos exemplificar 
+
+* Estruturação de pastas
+
+![Tree](./../img/directory.png)
+
+* Personalização de Widgets
+
+![Widgets](./../img/widget.png)
+
+
+### Frozen Spot no Flutter
+A parte fixa do flutter seria essa integração de Portabilidade, os próprios arquivos que permitem uma aplicação ser compatível com sistemas operacionais distintos junto a sua própria estruturação de pastas e arquivos.
+
+![Android Tree](./../img/android.png)
+
+![IOS Tree](./../img/ios.png)
+
+
 
 #### Histórico de revisões
 |    Data    | Versão |       Descrição       |    Autor(es)     |
 | :--------: | :----: | :-------------------: | :--------------: |
 | 19/11/2020 | 0.1 | Iniciando o documento | Bruno Duarte |
 | 20/11/2020 | 0.2 | Adicionando Reutilização WoCo Backend  | Bruno Duarte, Ernando Braga, Davi Alves |
+| 20/11/2020|0.3|Reutilização Front End|Bruno e Eugênio Sales|
 
