@@ -25,7 +25,7 @@ No contexto do Backend WoCo o flask nos da a liberdade de utilizar um banco de d
 
 
 
-### Adapter
+### Adapter no WoCo
 Converte a interface de uma classe em outra interface para atender alguma funcionalidade necessária. O adapter permite que as classes trabalhem juntas em prol de um objetivo na aplicação.
 
 No WoCo teremos uma model central referente as infomações dos exercícios cadastrados.
@@ -56,9 +56,24 @@ Os pontos flexíveis deste framework possibilitam finitas combinações e altera
 ### Frozen Spot no Flutter
 A parte fixa do flutter seria essa integração de Portabilidade, os próprios arquivos que permitem uma aplicação ser compatível com sistemas operacionais distintos junto a sua própria estruturação de pastas e arquivos.
 
-![Android Tree](./../img/android.png)
+* Estruturação/Arquivos Fixos
 
+![Android Tree](./../img/android.png)
 ![IOS Tree](./../img/ios.png)
+
+
+### BLoC no WoCO
+O ***bloc*** seria um componente central que ficaria responsável de receber ***eventos*** fornecidos pelo usuário ou pelo sistema através da interface, este componente também seria responsável por retornar um ***estado*** a aplicação. E assim cada widget teria seu funcionamento modularizado no aplicativo facilitando a manutenção e compreensão das funcionalidades. 
+
+* Estruturação do Design Pattern BLoC
+![Tree](./../img/todo_tree.png)
+
+* Trechos Centrais utilizando BLoC
+
+![Tree](./../img/todo_bloc.png)
+![Tree](./../img/todo_state.png)
+
+![Tree](./../img/todo_event.png)
 
 
 
@@ -68,4 +83,6 @@ A parte fixa do flutter seria essa integração de Portabilidade, os próprios a
 | 19/11/2020 | 0.1 | Iniciando o documento | Bruno Duarte |
 | 20/11/2020 | 0.2 | Adicionando Reutilização WoCo Backend  | Bruno Duarte, Ernando Braga, Davi Alves |
 | 20/11/2020|0.3|Reutilização Front End|Bruno e Eugênio Sales|
+| 20/11/2020|0.3|Reutilização Front End Design Pattern|Bruno, Weiller e Eugenio|
+
 
