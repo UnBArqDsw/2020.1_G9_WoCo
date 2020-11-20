@@ -46,11 +46,11 @@ O WoCo é uma aplicação voltada para o monitoramento e acompanhamento de trein
 - [DAS Template](http://sce.uhcl.edu/helm/RationalUnifiedProcess/webtmpl/templates/a_and_d/rup_sad.htm)
 
 ### 1.5 Visão Geral
-A aplicação será realizada utilizando comunicação entre cada componente, onde cada evento irá realizar uma requisição de acesso/escrita no banco através do backend e o feedback será entregue ao usuário em sua tela de aplicação.
+A arquitetura utilizada foi a arquiteura ***N Camadas***, ou do inglês, ***Multitier Architecture*** que por sua vez é uma arquitetura ***client-server*** na qual as funções de apresentação, processamento e gerenciamento de dados são fisicamente separadas. A aplicação será realizada utilizando comunicação entre cada componente, onde cada evento irá realizar uma requisição de acesso/escrita no banco através do backend e o feedback será entregue ao usuário em sua tela de aplicação. Escolhemos esta arquitetura por uma série de fatores sendo um deles a possibilidade de criar aplicações flexíveis e reutilizaveis. No decorrer do documento iremos abordar cada uma das camadas presentes na aplicação, a camada lógica, camada de apresentação e a de armazenamento de dados.
+ 
 ## 2. Representação Arquitetural
 
-Este tópico descreve a arquitetura de software da aplicação e como ela é representada, através das tecnologias escolhidas para cada uma das três partes principais do app, são elas: O Back-end, Front-end e o Banco de Dados.
-
+Este tópico descreve a arquitetura de software da aplicação e como ela é representada, através das tecnologias escolhidas para cada uma das três partes principais do app, são elas: O Back-end, Front-end e o Banco de Dados. 
 ## 2.1. Front-end
 
 Essa é parte visual da aplicação. É responsável pela comunicação com o Back-end e é através dela que o usuário é capaz de interagir com o aplicativo em si. Para o desenvolvimento do WoCo, a equipe optou por desenvolver uma aplicação mobile, pois esse tipo de aplicação se adequa melhor ao escopo do projeto.
