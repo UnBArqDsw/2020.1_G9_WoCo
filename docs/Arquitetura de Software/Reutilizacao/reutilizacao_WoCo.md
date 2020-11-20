@@ -111,13 +111,13 @@ A reutilização de software não envolve somente fatores de desenvolvimento, co
 ![lista treino prototippo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![lista treino app](./../img/lista_treino.jpg)
 
-![lista treino prototippo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
-![lista treino app](./../img/lista_exercicios.jpg)
-
 
 ![barra lateral](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![barra lateral](./../img/home_final.jpg)
 
+
+![lista treino prototippo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
+![lista treino app](./../img/lista_exercicios.jpg)
 
 
 ![add treino](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/add_treino.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
