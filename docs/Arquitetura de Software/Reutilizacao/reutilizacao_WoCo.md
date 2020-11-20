@@ -96,8 +96,8 @@ A reutilização de software não envolve somente fatores de desenvolvimento, co
 
 
 
-![Profile prototipo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home_lateral.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
-![Profile app](./../img/home_lateral.jpg)
+![add treino](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/add_treino.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
+![add treino](./../img/add_treino.jpg)
 
 
 
