@@ -2,10 +2,10 @@
 
 ## 1. Introdução
 
-Além dos tradicionais GoFs e GRASPs utilizados no projeto, foram utilizados padrões de projeto emergentes que não foram abordados nos padrões citados. Tendo em isto em vista, esse documento tem por objetivo a exploração de algum desse padrões. Chamamos de padrões emergentes estes casos em que o comportamento de um determinado padrão está presente, mesmo que certa região do código apresente estruturação livre. Por exemplo, a essência do padrão de projeto Singleton está presente em uma classe qualquer quando esta possui apenas uma única instância durante as execuções de um programa, mesmo que não haja restrição sintática para que isso seja possível; ou seja, o padrão Singleton emerge deste comportamento de um determinado elemento do programa. Ao auxiliar o desenvolvedor na detecção de situações de projeto como esta, pode-se enriquecer o seu conhecimento sobre as consequências de suas decisões, além de propiciar a estruturação explícita do padrão como conhecida, facilitando assim a documentação e comunicação do projeto. Este trabalho explora o conceito de padrões emergentes através das seguintes contribuições: 
-* uma revisão sistemática sobre abordagens automáticas de detecção de padrões de projeto, 
-* conceitos de padrões emergentes para vários padrões de projeto bem conhecidos, 
-* uma proposta de abordagem semi-automática de detecção de padrões emergentes, 
+Além dos tradicionais GoFs e GRASPs utilizados no projeto, foram utilizados padrões de projeto emergentes que não foram abordados nos padrões citados. Tendo em isto em vista, esse documento tem por objetivo a exploração de algum desse padrões. Chamamos de padrões emergentes estes casos em que o comportamento de um determinado padrão está presente, mesmo que certa região do código apresente estruturação livre. Por exemplo, a essência do padrão de projeto Singleton está presente em uma classe qualquer quando esta possui apenas uma única instância durante as execuções de um programa, mesmo que não haja restrição sintática para que isso seja possível; ou seja, o padrão Singleton emerge deste comportamento de um determinado elemento do programa. Ao auxiliar o desenvolvedor na detecção de situações de projeto como esta, pode-se enriquecer o seu conhecimento sobre as consequências de suas decisões, além de propiciar a estruturação explícita do padrão como conhecida, facilitando assim a documentação e comunicação do projeto. Este trabalho explora o conceito de padrões emergentes através das seguintes contribuições:
+* uma revisão sistemática sobre abordagens automáticas de detecção de padrões de projeto,
+* conceitos de padrões emergentes para vários padrões de projeto bem conhecidos,
+* uma proposta de abordagem semi-automática de detecção de padrões emergentes,
 * sua utilização para uma análise de ferramentas de detecção existente acerca de sua capacidade de identificação de padrões emergentes em alguns projetos de código aberto
 
 ## Padrões emergentes
@@ -87,6 +87,7 @@ class AuthenticationBloc
   }
 }
 ```
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/blocs/authenticationBloc/authentication_bloc.dart )
 
 * Widget (UI) responsável por alterar o estado de acordo os eventos emitidos pelo BloC e reagir de acordo com BlocConsumer
 
@@ -128,6 +129,8 @@ class AuthenticationBloc
     );
   }
 ```
+
+[Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/blob/main/lib/screens/login_screen.dart)
 
 ### Injeção de dependências (Dependency injection)
 
@@ -196,3 +199,4 @@ if __name__ == '__main__':
 |25/10/2020|   0.1    | Iniciando o documento  |   Eugênio Sales   |
 |25/10/2020|   0.2    | Adicionando o BloC  |   Eugênio Sales   |
 |26/10/2020|   0.3    | Refatorado e Adição de Injeção de dependências  |   Davi Alves   |
+|20/11/2020| 0.4 | Adicionando links para o código | Weiller Fernandes|
