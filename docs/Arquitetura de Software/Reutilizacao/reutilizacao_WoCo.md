@@ -66,7 +66,8 @@ A parte fixa do flutter seria essa integração de Portabilidade, os próprios a
 O ***bloc*** seria um componente central que ficaria responsável de receber ***eventos*** fornecidos pelo usuário ou pelo sistema através da interface, este componente também seria responsável por retornar um ***estado*** a aplicação. E assim cada widget teria seu funcionamento modularizado no aplicativo facilitando a manutenção e compreensão das funcionalidades. 
 
 * Estruturação do Design Pattern BLoC
-![Tree](./../img/todo_tree.png)
+
+![Tree](./../img/bloc_tree.png)
 
 * Trechos Centrais utilizando BLoC
 
