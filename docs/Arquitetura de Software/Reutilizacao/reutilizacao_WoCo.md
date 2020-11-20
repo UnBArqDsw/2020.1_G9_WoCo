@@ -7,7 +7,7 @@ Flask é um micro-framework para Python, segundo a documentação fornecida pelo
 ### Hot Spots no Flask 
 ***Representam as partes do framework de aplicação que são específicas de sistemas individuais e são projetados para serem genéricos, cabendo adaptá-los às necessidades da
 aplicação.***
-No contexto do Backend WoCo o flask nos da a liberdade de utilizar um banco de dados de nossa preferência. Neste projeto utilizamos o SQLALCHEMY.
+No contexto do Backend WoCo o flask nos da a liberdade de utilizar um banco de dados de nossa preferência, através do ORM SQLALCHEMY. Neste projeto utilizamos o Sqlite.
 
 
 * SQLALCHEMY
@@ -15,9 +15,13 @@ No contexto do Backend WoCo o flask nos da a liberdade de utilizar um banco de d
 
 ![DB](./../img/db.png)
 
+O Flask também permite uma maneira de organizar uma aplicação em Flask em pedaçoes pequenos e reutilizáveis, definindo uma coleção de Views, Templates e arquivos estáticos. E depois registrado dentro de uma aplicação Flask.
+
+![Blueprint](./../img/blueprint.png)
+
 
 ### Frozen Spots no WoCo
-***Definem a arquitetura geral de um sistema de software, ou seja, seus componentes básicos bem como os relacionamentos entre eles.Permanecem fixos em todas as instanciações do framework de aplicação.***No contextodo WoCo podemos destacar o retorno de status de requisições http no login.
+***Definem a arquitetura geral de um sistema de software, ou seja, seus componentes básicos bem como os relacionamentos entre eles.Permanecem fixos em todas as instanciações do framework de aplicação.***No contexto do WoCo podemos destacar o retorno de status de requisições http no login.
 
 * Status 200, 404
 
@@ -36,7 +40,10 @@ A parte do Adapter se encaixa na realização do parse dessas informações atra
 
 ![Exercise Parse](./../img/exercise_serializer.png)
 
+### Singleton no WoCo
+Singleton para prover um recurso único de conexão com a base de dados, permitindo uma maior segurança para toda aplicação.
 
+![Singleton SQLAlchemy](../img/singletonDb.png)
 
 ## Flutter
 Criado pelo Google, o Flutter é um framework, ou seja, um facilitador no desenvolvimento, que possibilita criar aplicativos mobile para Android e iOS com algumas funcionalidades vantajosas para o dia a dia de um desenvolvedor.
