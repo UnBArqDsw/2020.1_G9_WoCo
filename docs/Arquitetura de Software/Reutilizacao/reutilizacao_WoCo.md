@@ -101,6 +101,23 @@ O ***bloc*** seria um componente central que ficaria responsável de receber ***
 [Link para o código](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend/lib/blocs/todoBloc/todo_event.dart)
 
 
+## Reutilização do Protótipo
+A reutilização de software não envolve somente fatores de desenvolvimento, como a utilização de códigos, ferramentas e frameworks mas também no nível de requisitos e outros artefatos. 
+
+![barra lateral](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home_lateral.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
+![barra lateral](./../img/home_lateral.jpg)
+
+
+![lista treino prototippo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
+![lista treino app](./../img/lista_treino.jpg)
+
+
+
+![Profile prototipo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home_lateral.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
+![Profile app](./../img/home_lateral.jpg)
+
+
+
 
 #### Histórico de revisões
 |    Data    | Versão |       Descrição       |    Autor(es)     |
