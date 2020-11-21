@@ -104,26 +104,42 @@ O ***bloc*** seria um componente central que ficaria responsável de receber ***
 ## Reutilização do Protótipo
 A reutilização de software não envolve somente fatores de desenvolvimento, como a utilização de códigos, ferramentas e frameworks mas também no nível de requisitos e outros artefatos.
 
+### Barra Lateral
 ![barra lateral](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home_lateral.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![barra lateral](./../img/home_lateral.jpg)
 
-
+### Lista Treinos
 ![lista treino prototippo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![lista treino app](./../img/lista_treino.jpg)
 
-
+### Home WoCo
 ![barra lateral](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/home.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![barra lateral](./../img/home_final.jpg)
 
-
+### Lista Exercícios
 ![lista treino prototippo](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/lista_treinos.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![lista treino app](./../img/lista_exercicios.jpg)
 
-
+### Adicionando Treino
 ![add treino](./../../Base/1.1%20Projeto%20Não%20Orientado%20a%20Abordagens%20Específicas/prototipo/images/add_treino.jpg)&nbsp;&nbsp;&nbsp;&nbsp;
 ![add treino](./../img/add_treino.jpg)
 
 
+
+### Referências
+
+> MARKIEWICZ M., LUCENA C. Object Oriented Framework
+Development.
+http://www.acm.org/crossroads/xrds7-4/frameworks.html
+
+> https://refactoring.guru/pt-br/design-patterns
+
+> https://flask.palletsprojects.com/en/1.1.x/
+
+> https://pub.dev/packages/flutter_bloc
+
+> IEEE. SWEBOK-Guide to the Software Engineering Body of
+Knowledge, 2004.
 
 
 #### Histórico de revisões
