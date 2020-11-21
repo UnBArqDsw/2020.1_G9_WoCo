@@ -27,3 +27,4 @@
 ## Sprint 5
 
 - [Sprint 5 - Planning](sprints/planning/Sprint-5-planning.md)
+- [Sprint 5 - Review](sprints/review/Sprint-5-review.md)
