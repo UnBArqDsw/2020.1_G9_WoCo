@@ -24,8 +24,7 @@
   - [6. Visão de Processo](#6-visao-de-processo)
   - [7. Visão de Implementação](#7-visao-de-implementacao)
   - [8. Visão de Deploy](#8-visao-de-deploy)
-  - [9. Tamanho e Performance](#9-tamanho-e-performance)
-  - [10. Qualidade](#10-qualidade)
+  - [9. Qualidade](#9-qualidade)
 
 ## 1. Introdução
 
@@ -183,11 +182,9 @@ Utilizando as tecnologias citadas iremos através da criação de API, efetuar c
 
 ![Image](./../img/deploy.png)
 
-## 9. Tamanho e Performance
+## 9. Qualidade
 
-## 10. Qualidade
-
-## 10.1 NFR
+## 9.1 NFR
 
 O <i>NFR</i> rastreia os requisitos não funcionais, e mostra o impacto que um <i>hardgoal</i> causa em um <i>softgoal</i>. Sempre deixando claro a rastreabilidade e o propósito de um requisito. Tendo como padrão a <i>ISO 9241</i> e as <i>Heurísticas de Nielsen</i>
 
