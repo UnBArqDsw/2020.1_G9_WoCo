@@ -9,6 +9,9 @@
 | 03/11/2020 | 0.3 | Adicionando Visão de Casos de Uso | Weiller Fernandes |
 | 03/11/2020 | 0.4 | Adicionando Visão lógica | Eugênio Sales |
 | 03/11/2020 | 0.5 | Adicionando Visão de Implementação | Davi Alves |
+|03/11/2020|0.6|Adicionando Introdução e Visão de Deploy| Bruno Duarte|
+|20/11/2020|1.0|Atualizando a Introdução de forma coerente| Bruno Duarte|
+
 
 ## Sumário
   - [1. Introdução](#1-introducao)
