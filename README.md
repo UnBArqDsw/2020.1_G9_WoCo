@@ -27,20 +27,8 @@ A aplicação permite a adição de treinos categorizados por grupamentos muscul
 ## Apresentação final
 [Link para baixar o video da apresentação final](https://drive.google.com/file/d/19zf8DoQ2xv2RlU1OkcLpv3TxQK9KdF9F/view?usp=sharing)
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+## Repositórios
 
-## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+- [Front-End](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Frontend)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto final.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+- [Back-End](https://github.com/UnBArqDsw/2020.1_G9_WoCo_Backend)
